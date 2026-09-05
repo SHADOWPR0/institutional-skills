@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Analysis"
+  short_description: "CMT-curriculum-aligned, evidence-aware technical market analysis and causal replay"
+  default_prompt: "Use $technical-analysis to evaluate this market state causally, separate definitions from tested edge, and keep $investment-management as the capital-decision owner."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "AI/ML Research Lab"
+  short_description: "Reusable AI, ML, RL, LLM-agent eval, model-risk, and research-to-production lab"
+  default_prompt: "Use $ai-ml-research-lab for AI, ML, RL, LLM, model-evaluation, agent-benchmarking, experiment-design, MLOps, leakage, calibration, and research-to-production work. For finance capital decisions, keep $investment-management as decision owner and use this skill as support."
+

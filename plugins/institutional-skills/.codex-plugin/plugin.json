@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "Institutional Workforce contributors"
+  },
+  "description": "Portable institutional workforce: investment, banking, growth, prose, research and operations.",
+  "interface": {
+    "capabilities": [
+      "Read"
+    ],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Underwrite this financing and draft a source-backed partner note.",
+      "Research this portfolio mandate and prepare an investment committee memo."
+    ],
+    "developerName": "Institutional Workforce",
+    "displayName": "Institutional Workforce",
+    "longDescription": "Full financial and growth desk methods with 14 reusable execution roles. Recipient tools and data are configured separately.",
+    "shortDescription": "Expert skills and bounded agent work packets"
+  },
+  "license": "MIT",
+  "name": "institutional-skills",
+  "skills": "./skills/",
+  "version": "1.0.0+core.479035fecfdc"
+}

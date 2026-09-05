@@ -1,0 +1,5 @@
+interface:
+  display_name: "Financial House Operating System"
+  short_description: "Firm-level workforce graph for investing, banking, growth, persuasion, product, AI, and ops"
+  default_prompt: "Use $financial-house-operating-system to staff this mission like a private financial house: assign decision owners, route specialist agents, define handoffs, and deliver a tight execution contract."
+

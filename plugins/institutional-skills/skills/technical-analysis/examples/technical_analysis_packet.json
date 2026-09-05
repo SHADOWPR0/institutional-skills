@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "mode": "AGENT_REPLAY",
+  "as_of": "2026-07-13T10:30:00-04:00",
+  "data_cutoff": "2026-07-13T10:29:59-04:00",
+  "instrument": "NQ",
+  "venue": "CME Globex",
+  "horizon_minutes": 240,
+  "snapshot_id": "example-nq-20260713t1030",
+  "skill_version": "technical-analysis/1.0",
+  "model_id": "frozen-example-model",
+  "role": "Portfolio Manager",
+  "verified_observations": [
+    "The completed 30-minute swing sequence is higher-high and higher-low.",
+    "Price remains above the frozen session VWAP in the supplied snapshot."
+  ],
+  "timeframe_state": {
+    "5m": "short-term consolidation",
+    "30m": "uptrend",
+    "1d": "range expansion"
+  },
+  "candidate_set_id": "nq-20260713t1030-menu-v1",
+  "decision": "LONG",
+  "selected_candidate_id": "candidate-03",
+  "entry": 22000.0,
+  "target": 22024.0,
+  "stop": 21988.0,
+  "tick_size": 0.25,
+  "ttl_minutes": 30,
+  "evidence_grade": "D_DOCTRINE",
+  "confidence": 0.58,
+  "continuation_case": "Acceptance above the completed consolidation favors continuation toward the next structural level.",
+  "reversal_case": "A failed hold above the consolidation would favor rotation back through session VWAP.",
+  "invalidation_conditions": [
+    "The supplied snapshot becomes stale before admission.",
+    "Price trades through the proposed stop before entry is admissible."
+  ],
+  "stale_data": false,
+  "lookahead_audit": {
+    "passed": true,
+    "future_data_used": false,
+    "signal_confirmed_at": "2026-07-13T10:29:59-04:00"
+  },
+  "costs": {
+    "round_trip_points": 1.0,
+    "slippage_model": "next-admissible-observation with adverse gap-through",
+    "adverse_gap_through": true
+  },
+  "risk_status": "PASS",
+  "execution_authority": false
+}

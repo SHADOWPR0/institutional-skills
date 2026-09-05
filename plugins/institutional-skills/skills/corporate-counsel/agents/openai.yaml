@@ -1,0 +1,4 @@
+interface:
+  display_name: "Corporate Counsel"
+  short_description: "Legal operations, governance, and risk issue triage"
+  default_prompt: "Use $corporate-counsel to triage this legal issue, classify risk, and produce an escalation-ready action memo."

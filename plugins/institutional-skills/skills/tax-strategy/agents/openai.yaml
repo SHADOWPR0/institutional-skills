@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tax Strategy"
+  short_description: "Tax planning, operations, and governance workflows"
+  default_prompt: "Use $tax-strategy to analyze this tax scenario, compare options, and produce a control-ready action memo."

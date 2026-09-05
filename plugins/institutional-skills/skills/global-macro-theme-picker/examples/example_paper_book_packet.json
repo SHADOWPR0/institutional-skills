@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.1.0",
+  "mode": "PAPER_PORTFOLIO_RECOMMENDATION",
+  "parent_owner": "investment-management",
+  "review_type": "QUARTERLY_REBUILD",
+  "as_of": "2030-03-31T16:00:00Z",
+  "evidence_cutoff": "2030-03-31T16:00:00Z",
+  "research_only": true,
+  "human_approval_required": true,
+  "execution_authority": false,
+  "live_trading": false,
+  "existing_book_loaded_before_zero_based_book": false,
+  "source_manifest": [
+    {
+      "source_id": "SRC-POL-1",
+      "source_class": "PRIMARY",
+      "publisher": "Fictional Central Bank",
+      "publication_time": "2030-03-30T12:00:00Z",
+      "event_time": "2030-03-30T12:00:00Z",
+      "retrieval_time": "2030-03-31T15:00:00Z",
+      "freshness_state": "AVAILABLE"
+    }
+  ],
+  "market_state": {
+    "snapshot_id": "MACRO-2030Q1-PAPER-FICTIONAL",
+    "liquidity": {
+      "state": "Selective easing with uneven regional transmission",
+      "direction": "RISING",
+      "confidence": "MEDIUM",
+      "status": "AVAILABLE",
+      "evidence_ids": ["SRC-POL-1"]
+    },
+    "inflation": {
+      "state": "Goods disinflation offset by persistent service pressure",
+      "direction": "FALLING",
+      "confidence": "MEDIUM",
+      "status": "AVAILABLE",
+      "evidence_ids": ["SRC-POL-1"]
+    },
+    "policy": {
+      "state": "Policy divergence is widening across major regions",
+      "direction": "MIXED",
+      "confidence": "MEDIUM",
+      "status": "AVAILABLE",
+      "evidence_ids": ["SRC-POL-1"]
+    },
+    "business_cycle": {
+      "state": "Late-cycle developed-market growth with mixed regional momentum",
+      "direction": "MIXED",
+      "confidence": "LOW",
+      "status": "CONFLICTED",
+      "evidence_ids": ["SRC-POL-1"]
+    }
+  },
+  "thesis_cards": [
+    {
+      "rank": 1,
+      "theme_id": "POLICY_DIVERGENCE_FX",
+      "title": "Policy divergence expressed through reserve-currency conditions",
+      "origins": ["CORE_BOOK", "MODEL_ADDITION"],
+      "snapshot_id": "MACRO-2030Q1-PAPER-FICTIONAL",
+      "asset_class": "FX",
+      "sub_asset_class": "DEVELOPED_MARKET_FX",
+      "geography": "DEVELOPED_MARKETS",
+      "horizon": "6-18M",
+      "thesis": "Divergent policy paths can create a durable reserve-currency adjustment if real-rate spreads and official reaction functions keep separating.",
+      "causal_chain": [
+        "Inflation and growth persistence differ by region",
+        "Policy makers maintain different reaction functions",
+        "Real-rate and carry paths diverge",
+        "Reserve-currency conditions adjust through FX and cross-asset hedging flows"
+      ],
+      "variant_view": "Consensus treats the divergence as transitory; the research case requires official reaction functions to stay separated.",
+      "scenarios": {
+        "6m": {"base": "Divergence remains visible", "bull": "Reaction functions separate faster", "bear": "Inflation converges"},
+        "12m": {"base": "Carry and reserve behavior confirm the mechanism", "bull": "Policy spread widens", "bear": "Growth shock dominates"},
+        "18m": {"base": "Reserve-currency adjustment matures", "bull": "Sustained official divergence", "bear": "Synchronized easing"}
+      },
+      "catalysts": [
+        {"event": "Policy-path repricing", "window": "1-6M"},
+        {"event": "Quarterly inflation and fiscal updates", "window": "1-9M"}
+      ],
+      "evidence": [
+        {"source_id": "SRC-POL-1", "status": "AVAILABLE", "direction": "SUPPORTS", "quality": "PRIMARY"}
+      ],
+      "bear_case": "Inflation convergence or a growth shock could collapse the policy divergence before FX transmission occurs.",
+      "invalidation": [
+        "Reaction functions converge across the relevant regions",
+        "Real-rate and carry evidence no longer separates"
+      ],
+      "crowding_positioning": {
+        "status": "AVAILABLE",
+        "assessment": "Moderate consensus exposure with no extreme signal in the available evidence"
+      },
+      "market_structure": {
+        "status": "AVAILABLE",
+        "assessment": "Deep underlying markets support reliable measurement, but policy events can create gaps"
+      },
+      "state_reconciliation": {
+        "liquidity": "ALIGNED",
+        "inflation": "ALIGNED",
+        "policy": "ALIGNED",
+        "business_cycle": "NEUTRAL"
+      },
+      "data_gaps": [
+        {"field": "Dealer positioning decomposition", "status": "UNAVAILABLE"}
+      ],
+      "scores": {
+        "regime_coherence": 4,
+        "causal_strength": 4,
+        "evidence_quality": 3,
+        "catalyst_timing": 3,
+        "cross_asset_confirmation": 3,
+        "bear_case_resilience": 3,
+        "market_structure": 4,
+        "independence": 4
+      },
+      "penalties": {
+        "contradiction": 0,
+        "stale_or_unavailable_data": 3,
+        "crowding_reflexivity": 2,
+        "duplicate_driver": 0,
+        "unresolved_critic": 0
+      },
+      "final_score": 82.5,
+      "confidence": "MEDIUM",
+      "disposition": "FAVORED",
+      "thesis_state": "INTACT",
+      "valuation_or_price": "FAIR",
+      "timing": "ACTIONABLE",
+      "portfolio_action": "STAGE",
+      "candidate_expressions": ["FX_EXPR_A", "FX_EXPR_B", "FX_EXPR_C"],
+      "critic_objections": [
+        {"objection": "Policy divergence may already be priced", "resolution": "Reflected in valuation state and staged entry"}
+      ]
+    }
+  ],
+  "expression_comparisons": [
+    {
+      "theme_id": "POLICY_DIVERGENCE_FX",
+      "expressions": [
+        {
+          "expression_id": "FX_EXPR_A",
+          "asset_class": "FX",
+          "causal_purity": 4,
+          "liquidity": "HIGH",
+          "carry": "MIXED",
+          "implementation_cost": "LOW",
+          "thesis_neutral_downside": "Moderate adverse carry and policy-event gap risk"
+        },
+        {
+          "expression_id": "RATES_EXPR_B",
+          "asset_class": "RATES",
+          "causal_purity": 3,
+          "liquidity": "HIGH",
+          "carry": "UNAVAILABLE",
+          "implementation_cost": "MEDIUM",
+          "thesis_neutral_downside": "Requires DV01 normalization before any paper spread"
+        },
+        {
+          "expression_id": "EQUITY_EXPR_C",
+          "asset_class": "EQUITIES",
+          "causal_purity": 2,
+          "liquidity": "MEDIUM",
+          "carry": "NONE",
+          "implementation_cost": "MEDIUM",
+          "thesis_neutral_downside": "Company and sector risk may dominate the macro driver"
+        }
+      ],
+      "selected_expression_id": "FX_EXPR_A",
+      "entry_state": "STAGE"
+    }
+  ],
+  "proposed_book": {
+    "approval_status": "PROPOSED",
+    "cash_weight": {"value": 0.65, "unit": "portfolio_weight"},
+    "gross_notional": {"value": 0.35, "unit": "portfolio_notional_multiple"},
+    "net_notional": {"value": 0.35, "unit": "portfolio_notional_multiple"},
+    "expected_annualized_volatility": {"value": 0.06, "unit": "annualized_volatility"},
+    "var_99_1d": {"value": 0.012, "unit": "portfolio_return"},
+    "expected_shortfall": {"value": 0.018, "unit": "portfolio_return"},
+    "theme_risk_contributions": [
+      {"theme_id": "POLICY_DIVERGENCE_FX", "value": 0.25, "unit": "forecast_volatility_share"}
+    ],
+    "factor_exposures": {
+      "growth": "LOW",
+      "inflation": "MEDIUM",
+      "usd": "MEDIUM",
+      "real_rate": "HIGH",
+      "duration": "LOW",
+      "commodity": "LOW",
+      "credit": "LOW",
+      "geopolitical": "LOW"
+    },
+    "stress_tests": [
+      {"scenario": "Synchronized easing", "loss": {"value": 0.008, "unit": "portfolio_return"}},
+      {"scenario": "USD funding shock", "loss": {"value": 0.015, "unit": "portfolio_return"}},
+      {"scenario": "Inflation reacceleration", "loss": {"value": 0.011, "unit": "portfolio_return"}},
+      {"scenario": "Growth shock", "loss": {"value": 0.014, "unit": "portfolio_return"}},
+      {"scenario": "Policy surprise", "loss": {"value": 0.017, "unit": "portfolio_return"}},
+      {"scenario": "Liquidity gap", "loss": {"value": 0.02, "unit": "portfolio_return"}},
+      {"scenario": "Carry reversal", "loss": {"value": 0.009, "unit": "portfolio_return"}},
+      {"scenario": "Positioning unwind", "loss": {"value": 0.013, "unit": "portfolio_return"}}
+    ],
+    "liquidity_gap_flags": ["Policy-event gap risk"],
+    "positions": [
+      {
+        "position_id": "PAPER_FX_EXPR_A",
+        "theme_id": "POLICY_DIVERGENCE_FX",
+        "status": "PROPOSED",
+        "asset_class": "FX",
+        "entry_state": "STAGE",
+        "native_notional": {"value": 1000000, "unit": "native_currency"},
+        "usd_notional": {"value": 350000, "unit": "usd"},
+        "margin": {"value": 25000, "unit": "usd"},
+        "stress_loss_5pct": {"value": 17500, "unit": "usd"},
+        "stress_loss_10pct": {"value": 35000, "unit": "usd"},
+        "stress_loss_15pct": {"value": 52500, "unit": "usd"}
+      }
+    ]
+  },
+  "conflicts": [],
+  "unavailable_data": [
+    {"field": "Dealer positioning decomposition", "status": "UNAVAILABLE"}
+  ],
+  "audit": {
+    "run_id": "RUN-FICTIONAL-PAPER-001",
+    "generated_at": "2030-03-31T16:05:00Z",
+    "validator_version": "1.1.0"
+  }
+}

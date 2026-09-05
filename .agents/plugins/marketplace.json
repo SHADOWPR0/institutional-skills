@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "Institutional Workforce"
+  },
+  "name": "institutional-skills",
+  "plugins": [
+    {
+      "category": "Productivity",
+      "name": "institutional-skills",
+      "policy": {
+        "authentication": "ON_USE",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./plugins/institutional-skills",
+        "source": "local"
+      }
+    }
+  ]
+}

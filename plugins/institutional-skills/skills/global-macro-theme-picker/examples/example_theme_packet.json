@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "mode": "RESEARCH_ONLY",
+  "parent_owner": "investment-management",
+  "as_of": "2030-03-31T16:00:00Z",
+  "evidence_cutoff": "2030-03-31T16:00:00Z",
+  "market_state": {
+    "snapshot_id": "MACRO-2030Q1-FICTIONAL",
+    "liquidity": {
+      "state": "Selective easing with uneven regional transmission",
+      "direction": "RISING",
+      "confidence": "MEDIUM",
+      "status": "AVAILABLE",
+      "evidence_ids": ["SRC-LIQ-1"]
+    },
+    "inflation": {
+      "state": "Goods disinflation offset by persistent service pressure",
+      "direction": "FALLING",
+      "confidence": "MEDIUM",
+      "status": "AVAILABLE",
+      "evidence_ids": ["SRC-INF-1", "SRC-INF-2"]
+    },
+    "policy": {
+      "state": "Policy divergence is widening across major regions",
+      "direction": "MIXED",
+      "confidence": "MEDIUM",
+      "status": "AVAILABLE",
+      "evidence_ids": ["SRC-POL-1"]
+    },
+    "business_cycle": {
+      "state": "Late-cycle developed-market growth with mixed regional momentum",
+      "direction": "MIXED",
+      "confidence": "LOW",
+      "status": "CONFLICTED",
+      "evidence_ids": ["SRC-CYC-1", "SRC-CYC-2"]
+    }
+  },
+  "themes": [
+    {
+      "rank": 1,
+      "theme_id": "POLICY_DIVERGENCE_DURATION",
+      "title": "Regional sovereign-duration divergence",
+      "origins": ["CORE_BOOK", "MODEL_ADDITION"],
+      "snapshot_id": "MACRO-2030Q1-FICTIONAL",
+      "asset_class": "RATES",
+      "sub_asset_class": "SOVEREIGN_DURATION",
+      "geography": "DEVELOPED_MARKETS",
+      "horizon": "6-18M",
+      "thesis": "Divergent inflation persistence and fiscal transmission can produce durable differences in regional duration conditions.",
+      "causal_chain": [
+        "Uneven inflation persistence constrains policy at different rates",
+        "Policy makers follow different reaction functions",
+        "Real-rate and term-premium paths diverge",
+        "Regional sovereign-duration conditions separate"
+      ],
+      "catalysts": [
+        {"event": "Policy-path repricing", "window": "1-6M"},
+        {"event": "Quarterly fiscal issuance updates", "window": "1-9M"}
+      ],
+      "evidence": [
+        {"source_id": "SRC-POL-1", "status": "AVAILABLE", "direction": "SUPPORTS", "quality": "PRIMARY"},
+        {"source_id": "SRC-INF-2", "status": "AVAILABLE", "direction": "MIXED", "quality": "PRIMARY"}
+      ],
+      "bear_case": "Growth convergence or synchronized inflation relief could collapse the expected policy divergence.",
+      "invalidation": [
+        "Reaction functions converge across the relevant regions",
+        "Real-rate and term-premium evidence no longer separates"
+      ],
+      "crowding_positioning": {
+        "status": "AVAILABLE",
+        "assessment": "Moderate consensus exposure with no extreme signal in the available evidence"
+      },
+      "market_structure": {
+        "status": "AVAILABLE",
+        "assessment": "Deep underlying markets support reliable measurement, but policy events can create gaps"
+      },
+      "state_reconciliation": {
+        "liquidity": "ALIGNED",
+        "inflation": "ALIGNED",
+        "policy": "ALIGNED",
+        "business_cycle": "NEUTRAL"
+      },
+      "data_gaps": [
+        {"field": "Cross-region positioning decomposition", "status": "UNAVAILABLE"}
+      ],
+      "scores": {
+        "regime_coherence": 4,
+        "causal_strength": 4,
+        "evidence_quality": 3,
+        "catalyst_timing": 3,
+        "cross_asset_confirmation": 3,
+        "bear_case_resilience": 3,
+        "market_structure": 4,
+        "independence": 4
+      },
+      "penalties": {
+        "contradiction": 0,
+        "stale_or_unavailable_data": 3,
+        "crowding_reflexivity": 2,
+        "duplicate_driver": 0,
+        "unresolved_critic": 0
+      },
+      "final_score": 82.5,
+      "confidence": "MEDIUM",
+      "disposition": "FAVORED"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "business_cycle.direction",
+      "status": "CONFLICTED",
+      "source_ids": ["SRC-CYC-1", "SRC-CYC-2"],
+      "resolution": "Preserved as mixed; theme receives no positive cycle alignment"
+    }
+  ],
+  "unavailable_data": [
+    {"field": "Cross-region positioning decomposition", "status": "UNAVAILABLE"}
+  ],
+  "cadence": {
+    "daily_next": "2030-04-01T16:00:00Z",
+    "monthly_next": "2030-04-30T16:00:00Z",
+    "quarterly_next": "2030-06-30T16:00:00Z"
+  },
+  "audit": {
+    "run_id": "RUN-FICTIONAL-001",
+    "generated_at": "2030-03-31T16:05:00Z",
+    "validator_version": "1.0.0"
+  },
+  "research_only": true,
+  "portfolio_construction": false,
+  "execution_authority": false
+}

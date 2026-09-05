@@ -1,0 +1,13 @@
+{
+  "allowed_tools": [],
+  "crm": {
+    "inbox": null,
+    "owner": null,
+    "schema_path": null
+  },
+  "external_actions": "explicit_authorization_only",
+  "principal": "recipient",
+  "research_roots": [],
+  "schema_version": 1,
+  "voice_samples": []
+}

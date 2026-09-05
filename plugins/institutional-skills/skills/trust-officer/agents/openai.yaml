@@ -1,0 +1,4 @@
+interface:
+  display_name: "Trust Officer"
+  short_description: "Fiduciary trust administration and governance operations"
+  default_prompt: "Use $trust-officer to evaluate this trust case, apply fiduciary standards, and produce a decision memo with controls and next actions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investment Management"
+  short_description: "Canonical asset-management team skill with house philosophy, org-chart staffing, macro desk routing, quant/systematic research, portfolio construction, risk, and governance"
+  default_prompt: "Use $investment-management as the sole investment decision owner for asset-management, portfolio, capital allocation, deep quant, macro, public/private markets, risk, sizing, market-structure, derivatives, crypto, event-market, financial-analysis, and trade-memo work. Staff the smallest relevant desk from its asset-management org chart. Route macro workflows through the unchanged callable child skill $global-macro-theme-picker so locked consumers keep access."

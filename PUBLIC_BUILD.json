@@ -1,0 +1,974 @@
+{
+  "capabilities": 174,
+  "execution_roles": 14,
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "e59dfeffe6dffe477fcd75a33e661d883a1ad18b8b46d79c235ac750a9fcd40f"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "5f730a2e6ed7c5d6412f39415c5ee04b1f276bba2902854a743f5f7740a6dc2a"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8c518fda0ba9f6c85b66dd4a72502a9cf7c2203e72191de4f643e0edec5f76e0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d50aa14778138e8c5c0ba3ded7851ba529e434148d0eeede62c1fdb78d5d3a5b"
+    },
+    {
+      "path": "SOURCE_GATES.json",
+      "sha256": "86e819cb7fddae69a91f10c94a360ab54dd848b1c88c4924d0c665f080740460"
+    },
+    {
+      "path": "UPDATE.md",
+      "sha256": "05b79655442ebda617db98c9e690891beb710cef6ae6cc280c464482e96a5dc0"
+    },
+    {
+      "path": "bindings.example.json",
+      "sha256": "99195e03296bdc01e2d8bcc4787bd8718dd72a79660932dc331efacdc21488bf"
+    },
+    {
+      "path": "examples/mandate.json",
+      "sha256": "d630fa6a46e2cd537beb7a1391168eb0eae3629d51e9cdd87c1981e4f764ff5d"
+    },
+    {
+      "path": "examples/run_demo.py",
+      "sha256": "2e2cfed76ce9e022eeb29c5d63aef39ade749049258c01557c83e62d35a79ebb"
+    },
+    {
+      "path": "install.py",
+      "sha256": "815087f01f4534e5b4fd9a66fa8c24846f2a7c8f1d8b11b456cb407e7b9569e9"
+    },
+    {
+      "path": "plugins/institutional-skills/.codex-plugin/plugin.json",
+      "sha256": "8e7b74d7e7b105708974ed91da9817ab9cb7e0f4d23f4497fced3fbcd387f5ca"
+    },
+    {
+      "path": "plugins/institutional-skills/LICENSE",
+      "sha256": "8c518fda0ba9f6c85b66dd4a72502a9cf7c2203e72191de4f643e0edec5f76e0"
+    },
+    {
+      "path": "plugins/institutional-skills/LICENSES/atropos-command.txt",
+      "sha256": "cd68caff47a7951be3423459686a5e05012e09c41d3b1fe9ac9725c170327a9d"
+    },
+    {
+      "path": "plugins/institutional-skills/PORTABILITY.md",
+      "sha256": "b27205a5551a6d58853232becba566a0f19406eb80d72b38edce4186e45547dd"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-ai-validation.toml",
+      "sha256": "a3186090d3cfd3bf3f9d716486d778373046657f8dacab59944bdc177ffc7217"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-capital-markets.toml",
+      "sha256": "84d4d74de3e0a2474a01119a1316ab4566ba897cd1538cbca12231a11cea35d2"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-chief-of-staff.toml",
+      "sha256": "cfbcc71988def08fcf05b7850190bbf35b9765b3c9a0d2fc300ea9c8cf5d6ce8"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-cio.toml",
+      "sha256": "e6e8035bdbcccadf2c5fe46d65fb772a68f8476deb9625de44d627305bade27b"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-communications.toml",
+      "sha256": "8e1f6da28157ea58182c277b43440ff0668c3e003a656b220f6e21185d6bbe5f"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-credit-committee.toml",
+      "sha256": "7c148ac8509104ac2f15555fb1f5691094b793e7a973110b6c05f091d75f7dba"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-deal-diligence.toml",
+      "sha256": "731cdddc93a22888810089acde251a5939900a549e2e5a54f1b30054eb28f73b"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-growth.toml",
+      "sha256": "df709c53f8d7864a1f64f029f596d915e6acc49fa81de3837dbe016de6f37e80"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-market-structure.toml",
+      "sha256": "af090d158a7abc58106466cea576726ee92161c887cd51df53be4dff37370801"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-ops-security.toml",
+      "sha256": "e04b25b504dd598a4698018f9ab6952f385d95d88edcd02d314dccb0e674e4c4"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-portfolio-risk.toml",
+      "sha256": "eed7af440fd30936039683d5b1ca78abd0c925c8bbfdfa3d6b77ad8fe53b8c9c"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-product-design.toml",
+      "sha256": "b9cb87d061fcd1d24b61619ff97a73ac00134ce144bac50225018b5542ac6198"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-systematic-research-pm.toml",
+      "sha256": "ccbc966fb33b5595ccab461d3ffda6000fd046dfb28daf649c5298c10c8b3dd9"
+    },
+    {
+      "path": "plugins/institutional-skills/agents/house-venture-platform.toml",
+      "sha256": "20457a29ca6c8f15ff5c8193cd3f5fd985b9b661cac5bf036366378e2b5d99a3"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/SKILL.md",
+      "sha256": "6e6713b7d577c214c2a9bc77d93dce6621036ab5b026f5e0f5490b0f321201cf"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/codex-marketplace-intake-2026-07-16.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/context-budget-and-retrieval.md",
+      "sha256": "05941a71b9f082d1f4dbacb17bad367b15a7828670329a93cd41c8cb1f515709"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/continuous-learning-and-memory.md",
+      "sha256": "6ad23f8890f73c2a05d584a2efe637c96422a251f03fbc5ada85c3cb1ec20af4"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/evals-benchmarks-and-ledgers.md",
+      "sha256": "afbaa20149003d623ec07db33be0b48246e1b905494e42cc0f9477f820bebf42"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/external-repo-intake-2026-06-15.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/external-skill-intake-2026-06-15.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/quant-repository-capability-harvest.md",
+      "sha256": "64bc822b6986b807bcd266c72dd2d86e1c45534dd6026b9b8e2441a4ccdffacb"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/review-swarms-and-work-packets.md",
+      "sha256": "fae6ce255499e07b4bdb7da9e1535bfd278874779ad95b81845bdb9476438005"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/runtime-governance-and-cost.md",
+      "sha256": "dbfc1bff126ae6e542c85da45996d2350181e237ce624f1b90b9e77ec451a163"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/references/source-map.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/agent-ops-control-plane/scripts/validate_quant_repository_harvest.py",
+      "sha256": "a02a930915cf0dcc86bb604dd32b7039c25937bc9eb88681e2aa1b7bd1cda1a7"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/SKILL.md",
+      "sha256": "7d2883f69f313240d70dbedc7211a15db206b01b5c8d2e9f930f6bf8ab786169"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/agents/openai.yaml",
+      "sha256": "20a22fb1e84e001ee62429149b677b6824a60a74ad2aaa417ce8413510a61aea"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/references/experiment-design.md",
+      "sha256": "35e9aceb616b077f2864747cdcfb102158bb53e44352d349d3b0e5d1931015b2"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/references/llm-agent-evals.md",
+      "sha256": "6949990c4a414740e67f878b93b239cdbc8eda4a0d190c5c496e731d913db851"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/references/llm-build-playbook.md",
+      "sha256": "e61c2b8415bb3881d944820cf73ee7dd8d9d95f48e46a1fcaa3df8b9c7424b51"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/references/model-risk-governance.md",
+      "sha256": "a7836695895541a4eaa0cb79ed6fe1daff03475487d3d4d6da991b90941cd2ad"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/references/research-translation.md",
+      "sha256": "6d14e72255d5a5f05f3402d36220f17feb832721725e318c5d1f8754a0962599"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/references/rl-simulation.md",
+      "sha256": "50c396f12f2f4a9267d6b5a8c550be494f8a3b272181f3321bc3020b35baa6f5"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/references/source-map.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/references/time-series-feature-label-artifact-contract.md",
+      "sha256": "4f3b31fbd42cf9a6c234b78cc95ac8ef2bc041302b5f3e22c9f6a485a87c9348"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/scripts/ai_ml_router.py",
+      "sha256": "d83b720dcc5edcd6cc3a2d3bca44055c13c9c218fc8e1d90f1675112677f04b6"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/scripts/experiment_gate.py",
+      "sha256": "abed7687a261317c0d49a2bef29baa44a472e9fb4d544cf52e8e3b0dba4162fb"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ai-ml-research-lab/scripts/validate_time_series_contract.py",
+      "sha256": "829fd30df7f933b4ca486b2ed99a8866f593ef15da4f10228d9e11477dc33ec4"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/SKILL.md",
+      "sha256": "d1eaaf9a1209be3116bdabbe0c6bceada95ddde040b26b7c0852663e4a7a6249"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/examples/software-release.md",
+      "sha256": "c9b3cb125ff828e3baec8ca74f719e527f28f6c683b5a943e861860c15ff1ec3"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/references/agent-motivation-and-command.md",
+      "sha256": "3a1689a033ec4b142747df0fc1acae0c604c91f60584a62f5274e350f786712f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/references/anti-bloat-and-context.md",
+      "sha256": "69fcd2a53983f6c06f49ce91e50d17b640782d8722c4df746a66786c33f9823e"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/references/evidence-and-impossibility.md",
+      "sha256": "6e735d22a3e525bd8563609c1ce10bb9503310f6517606f589f034fa04fa7bd5"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/references/leadership-canon.md",
+      "sha256": "5549b9f0767251ad3b72078f9df8e603ffe91f89392270fb9b6e0f438fb8b493"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/references/orchestration-protocol.md",
+      "sha256": "a2a8bf30946108be0cbd7d1b6edb9b1a51d8f3339c1a06f77f577bf5599d6237"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/references/persona-and-command.md",
+      "sha256": "245c2f140718724168970435c8e228cc0dbc06b765daa05726987af2717aec44"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/scripts/validate_skill.py",
+      "sha256": "a8183dcacef63b417976fe47e14e16148d74678683f77c4ab176f34b95abed4d"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/atropos-command/templates/mission-brief.md",
+      "sha256": "deef03aa3bfc9852195aae10cd475e4fee9987581a7d0080efbe6ef47c53e8da"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/SKILL.md",
+      "sha256": "7bfee489424553615a3355464fcbf4718ff8229b1247c7bd5c9bf12031c87db2"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/agents/openai.yaml",
+      "sha256": "997db0360eeee551dfa799cd5d7fa51fdb1130dc16a13d520a2b76fcebff176d"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/commercial-contract-review-framework.md",
+      "sha256": "a9f676ff11b172e6fac0173423a50d0ea7d6007b86ccfdaafa705c7cbc2870c2"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/corporate-counsel-competency-map.md",
+      "sha256": "8e1e07a6ae22c9f072bfdb6a3980f57e0c0975652570bc6704ec131d003a535b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/corporate-governance-and-authority.md",
+      "sha256": "04cd4ae8a74ad7b43bb9d5314afd97c574121d1a9bc11949882b67f4d640ca1f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/disputes-investigations-playbook.md",
+      "sha256": "925cb018c6412c4b7faa13c819d044945a0faf0e85ba7b1cdd73fe59ccfdaea8"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/employment-and-policy-governance.md",
+      "sha256": "14b732b92ba334ae4193cae32d252c4079b107635bd07d6f973dc560984c582b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/legal-intake-and-risk-triage.md",
+      "sha256": "b2125d11ec4e0c50ffe7a5e32d642182231f652d1a5a9477539819e10055e5e3"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/legal-operations-and-documentation.md",
+      "sha256": "8d6b6ff81d433091e83a282d901464d81f1cae266a209b03cb34f58bdca75999"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/regulatory-and-licensing-checkpoints.md",
+      "sha256": "2c83cf6f42cd6fba9af72fe23fae0c9340ca238999899e32e5ed97561635faa1"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/corporate-counsel/references/transaction-legal-workstreams.md",
+      "sha256": "ef4005ab933f8915dcc4cdba62f9d413535ba914c0ad84d98875d58e30401336"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/SKILL.md",
+      "sha256": "bfa65b7d338fff56e34c0bf2a4f2f6cc9b7565b5275aaca8a0aa13cfedac55d7"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/references/argument-and-evidence-control.md",
+      "sha256": "fbb9cb0a35637057ee6eb66b323f35340845cf50e9a56b0fe89e7d50aac74e83"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/references/high-hit-rate-marketing-prose.md",
+      "sha256": "10facfbb7d9b0313ffeeaf9b600ee8ea7b060a00d151eebfe6090d9688d54d6f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/references/humanizer-patterns-2026-06-15.md",
+      "sha256": "f49281833953476e9f25f46bce0460edddb794a1e92ccf88d20502b53f5813cb"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/references/prose-engine-evergreen.md",
+      "sha256": "c1986aea0b1afe76abd8de849485f885f701047fcbf0ff5e0a005a353040edb8"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/references/prose-research-notes.md",
+      "sha256": "6ff19a4ce0dd0de2053b3dda62906773133a9c47d38b467eff0e1536e8a6c817"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/references/prose-test-cases.md",
+      "sha256": "017dfabc74bc3a130e0ae209f1dde69c8127c5036fd6a853fa58f53e41c4863b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/references/recipient-voice-model.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/rubric.md",
+      "sha256": "fe90f6567f6832ec0c28b736dc227f0f05b6244c4f8896937800a3d1e0cc3532"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/scripts/prose_linter.py",
+      "sha256": "d9090571f434a2ed80a810462e3a575546adc201c6cbdb609e1dca7d4c04630f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/templates/deal-advocacy-email.md",
+      "sha256": "a2e450363d7ca80905705ea928216e1f3db6cab0e37df4cbfa85e1468d9602ff"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/templates/follow-up.md",
+      "sha256": "90046a9c9f9bb327575420f7891ca2452292c7620eb28a1e7de82ae3803f866e"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/templates/forwardable-blurb.md",
+      "sha256": "2b71f1ada66d0266f54974d84b77ec8a87b1bcaa31eae24dbc56552d527733fc"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/templates/investor-intro.md",
+      "sha256": "1faf2b2fa9e08757f7794efa77c1c52762e3b68d750c362313b39af34b01725f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/ethical-supersuader/templates/objection-reply.md",
+      "sha256": "b19ff61ff5b55b423bf6dd0ea8fb31a1cd543f1ebe87fab063aef645c80a44dc"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/SKILL.md",
+      "sha256": "428085c7a2a83ce9e1d0ba92e05d40610fc883d917b7ac4d3f12c51275e27eb5"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/agents/openai.yaml",
+      "sha256": "e89b3a597cdc3ecde2d99304a5b24e51d61920b10a1ee4d800fc2389879afb67"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/examples/example_mission.json",
+      "sha256": "dc643212b71e3a1a2cd8db777be361bc4fb1859085a7a247ea88f60cfa48e77e"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/capability-registry.json",
+      "sha256": "26efe7a42cf1476a333908f48f7a6a6f6be9a41bbc8334cdd2c1e9ae50624c26"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/employee-operating-contract.md",
+      "sha256": "bd8e6c646e00ad413dca919c4f500c76e7191e7d2e5aa0067d0f195181e79353"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/financial-house-org-chart.md",
+      "sha256": "7c15992109a6adddfe146b428afa43f4a9251f2d8592cecdabe689f2bc03459c"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/native-workforce.md",
+      "sha256": "a3fef869aea4c7394ceb5ef673d5b521b46e9c7b4f116568dc183964b0115614"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/routing-and-handoffs.md",
+      "sha256": "09cb329302c4f1c98f7334d85d58026461fcf2aaf4254a65a98d45105b6e919a"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/scripts/route_financial_house.py",
+      "sha256": "279e6452b5ce70cf55ab35c19952a83977b6893ca85da977de10d62e2c17ab89"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-house-operating-system/scripts/workforce_runtime.py",
+      "sha256": "76d272b20bea24741efdec96989b1093890441100c99d44568801691bcc42a62"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/SKILL.md",
+      "sha256": "c30ece51750360fcb5b5c60f09564216960dec679564b52e61157ddb6f858770"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/agents/openai.yaml",
+      "sha256": "9babf5a144a092f0ab0aabea23ec6e2abbf3197bb581f0fbfff0092b133c5acd"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/behavioral-coaching-and-governance.md",
+      "sha256": "6d09639321ba464838f580a2cc41bb9836e33a04bec549c7d214833b9925758f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/cash-flow-and-balance-sheet-planning.md",
+      "sha256": "85405e44e1efcf3d7a4fe14bfffbf72f41782086fbec87641ed319c4f007fd4a"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/cfp-competency-map.md",
+      "sha256": "820810dd89d966b6fe78f4fe5d6e5d3c4b63e6258506609819e8507966111ddb"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/client-discovery-framework.md",
+      "sha256": "fab33c9e692f2e9b02bd05c0340f55281ee63119dc309f8ddb9cb06c68ad0aca"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/debt-and-liquidity-planning.md",
+      "sha256": "3d7f24be0e357b0f166658df9796cefb86376850a7f988dc2214babdb0a922e6"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/estate-and-beneficiary-planning.md",
+      "sha256": "c5acbf95d7e51d120a4966423cf211785455d4e6e6e7149bc8702c7a859125b8"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/insurance-planning.md",
+      "sha256": "1f491b9c23510e9845eae74d7cd92fb9c1f6ba6d6031bd605ddfcaa2958b0346"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/investment-planning.md",
+      "sha256": "2c6eb592690c73c9dcba3dec722e8e11d40eccc9d61b5f45c022a17b33515f51"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/plan-documentation-templates.md",
+      "sha256": "642ee3e86d8eacadf62ae8d9e3fd3b0ff52d3dd3f6df40f35927c51550399d30"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/planning-formulas-and-ratios.md",
+      "sha256": "81c4b512c0ee481fd561469e036c5f487a46fa11d90fbb3279a3a7134d2fbc93"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/retirement-planning.md",
+      "sha256": "9b6e025aadd8963ea68e06ef8673d48e1b7de15fb5a99cf9a652aa9e2460258d"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/financial-planner/references/tax-planning-coordination.md",
+      "sha256": "164c3293cfe9bb18a91333eb518ac1f75a86a8e98ce14881750bfdc61ed96fab"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/global-macro-theme-picker/SKILL.md",
+      "sha256": "0203f97f6dfa82fb8eb4c78a2d7f17d70eaf456b98df31071efe0bc823e627a6"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/global-macro-theme-picker/examples/example_paper_book_packet.json",
+      "sha256": "60934b69707249e7568630fd734e2bbc4d8694343adccdd0a91b0d2331a8b70b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/global-macro-theme-picker/examples/example_theme_packet.json",
+      "sha256": "2a2dc64314b5d0ccc338f001b700adbd6abf565efd889a3fca1614632843e2b2"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/global-macro-theme-picker/references/authoritative-global-macro-agent-spec.md",
+      "sha256": "af20be1ac00e1ac032150c3bf5840499c6eebb6d30cf5c2d147fd65cf3c1b099"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/global-macro-theme-picker/references/global-macro-theme-framework.md",
+      "sha256": "714a68c4cfc2ce7f3c60363ee98f046822e38958ed5143c7bc5c6ceb8d6bfe9d"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/global-macro-theme-picker/scripts/validate_theme_packet.py",
+      "sha256": "88aa618c67e59076b3443a604bd18f55b46d13428b1e0cbe6438d5a553771ef4"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/SKILL.md",
+      "sha256": "af95cde1a33aa87544e8f34f719dd96ddaa80a954a10bd9908de5accbd805456"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/docs/DEPRECATED_GROWTH_SKILLS.md",
+      "sha256": "953620a9fe4535e8082435ab3449f9c04181031803d57dfca6d090464964810c"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_AGENT_HANDOFFS.md",
+      "sha256": "2f50d0c3f693328dcb9dea39aa24436ef268a2c658bed0a22015ea5d7e9465ad"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_ARCHITECTURE.md",
+      "sha256": "c7ddfd6c9f283094e5ed82d820fed3f05bcf3d77a1abeb1f3f3bcde6b3779bba"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_METRICS_FRAMEWORK.md",
+      "sha256": "d4ab81e7a0474ddd2088fdc8d9dcec8c93695cafa1642209b0636503153603e5"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_SKILL_CONSOLIDATION_REPORT.md",
+      "sha256": "ab513656b98b30a3143122c2bc0a899815d8cd297dd2737b6ea7631c75f77da1"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_SYSTEM_AUDIT.generated.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_SYSTEM_AUDIT.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/references/plugin-support-map.md",
+      "sha256": "a48817f124b2d0f62d7057f3ec423de58253a21bca0ae1b5a542b483a25243a7"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/references/relationship-workforce.md",
+      "sha256": "fcebb8c6b906748f2ab570b2bf90f458e80a3d28313cfc81bf78a06b4456d2cb"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/scripts/growth_skill_router.py",
+      "sha256": "08d5400187c233bca8f5c9b1e99038142bad692e05f487f4fc6630210b149ba4"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/growth-operating-system/scripts/validate_relationship_handoff.py",
+      "sha256": "9dbb74133a021c50fbbdd13f24418a8aec1babef20821763082d241971b60a6e"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "sha256": "9631b6f29b02118aee2abea185fde89be2cbc29cf8a82e6e67fdb6d81f195d8c"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/agents/openai.yaml",
+      "sha256": "c22101061b798c2b92f82284300566de29316f3268720f98c17edda8a8447a00"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/ai-ml-source-map.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/asset-management-operating-org.md",
+      "sha256": "4d592a42023638424e42be9bf60f5eca6efef126653d8b326f6b5fd141a9232c"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/crypto-platform-and-venue-due-diligence.md",
+      "sha256": "044fdf92d0f4f77174091e56c16a3f1d75ff133aacfcb2bf62ad26454db661f3"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/framework-notes.md",
+      "sha256": "3047669db439c1b681a1909c5c81eb0794b7fe0eb9aabe1e76355658bdcf2aff"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/full-cycle-investing-preference-model.md",
+      "sha256": "13e9ce405dfadf31aca3f2248fa80048928d3f8ece1178065c64cdb16a592391"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/house-investment-philosophy.md",
+      "sha256": "9f0c7e5d9e53f5c81cb2007c35594bae14fdae27560ebf9d50cdbf8b52bb8d69"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/investment-firm-agent-roster.md",
+      "sha256": "66ef4d9bcc4e2a1b564d5e86cd9581b2b28a2db2d978aeef05a198daef74bf09"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/llm-finance-agent-evals.md",
+      "sha256": "42482a0686fa1a1f1ea4c76815393515ab0889ac4833de19d95932184ff32257"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/macro-desk-integration.md",
+      "sha256": "1611db0b91bfe48bd27201149cb3e6e66337762924254a60c77cf5e648e40ce4"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/mandate-playbooks.md",
+      "sha256": "4ed33008d64260ed84ae221c75fb56ecb34900f751af273bddd74cc41785ca7d"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/market-making-playbook.md",
+      "sha256": "392b7c1d21c59acc6bd3a95df6ee4b64c5d24b20a6a838cc5fe44b43ef1ddd31"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/outcome-linked-decision-ledgers.md",
+      "sha256": "d00f773e43c83f0c663d8fc256e98f4926a02d187009bdedd9a79d632563e6b8"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/owned-research-lifecycle.md",
+      "sha256": "dad425eb82af7e8646417f7a9488663201ac96d1e5e8057bc647bae34495ee67"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/paper-index.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/performance-governance.md",
+      "sha256": "6b1251d8e60cc9ab790f3f53e53324a75986d6b720e388d92e12d545ae428dc5"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/plugin-support-map.md",
+      "sha256": "7a8a1174d68f72774e59aa0526a58ef3e6fe37a9e190d48778d4cd7a148274bb"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/prediction-markets-playbook.md",
+      "sha256": "579756c47cb812ee78bf509d1483a1417e6d824c6cbffc3e47f55b73536838db"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/quant-ai-benchmarking.md",
+      "sha256": "bb0f19745f647937201c98e6b454ac291de708125f4ca00aeee705ded3aad166"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/recursive-improvement.md",
+      "sha256": "727181c63a8acdf29a204f90c778b0b37279e8ee993cb8856c059f545ebbc367"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/rl-market-simulation-lab.md",
+      "sha256": "15ebb7df8956a0461de668e4a1c8d54dfa74ce2bf05dcff3f87b32b487612bdf"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/skill-coverage-map.md",
+      "sha256": "363c12621ec1f5170bd7d146ef354e76c80f91bfcf0fcc702212fd9b18daca6c"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/source-map.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/strategy-router.md",
+      "sha256": "2fbcc109f6d004d1db292b5c8b85cccbe5a0cbf7c9eca610b82095135a95e5c5"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/strategy-taxonomy.md",
+      "sha256": "d6b42b35524f8b096edfce282a27b147bc5bcb91bd9fee1b495b993043003180"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/references/venture-capital-operating-desk.md",
+      "sha256": "a0d114a4fc6203753381dd006cd6e20bde305652daa4cd887a042a39fd612363"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/scripts/strategy_router.py",
+      "sha256": "4f969dcbe9d2f837b6da9bc1035d137d6f288634f91a758e09d041b763fdba2a"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/investment-management/scripts/validate_crypto_venue_packet.py",
+      "sha256": "fb6d399bbf1ecfc3914857e0b9f35ec5174de8171080fe97af79db49f75e8bce"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/security-bluebook-builder/SKILL.md",
+      "sha256": "5edb8c3642d4e5fd76decd19cc168e7d8a096da957192ab0cbd691f65707d7fa"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/security-bluebook-builder/references/bluebook_template.md",
+      "sha256": "4f721df08d01c7a6246feaac9e52d36b97ee14c067f45afc663c3ea01b4ee80f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/SKILL.md",
+      "sha256": "be438e1952c5fba98254f16095de416a1b4c01445334a0597414e93c27443733"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/agents/openai.yaml",
+      "sha256": "a4c2510b00d7e1c5839fbe24eb1a8d038d29347a19cdf5d7df05a20cd0d7655d"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/aba-training-placeholder.md",
+      "sha256": "0f94e8eab97a2b886c47453941079fbc847a921af23f9d05765588de28930df0"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/direct-tax-planning-framework.md",
+      "sha256": "ca2be7af75daa8887c965682ae363d0ff87bbda98431a5bb2802c40f415195e2"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/indirect-tax-and-nexus-framework.md",
+      "sha256": "57f35e1c5a264ce649028bcb27d5db283f4209ab09a98e424bb534649207c06e"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/international-tax-coordination.md",
+      "sha256": "580222e39d67240cfe603e33a6685e1485a00f974625a3584d82b5e6bf61704b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/tax-controversy-and-audit-response.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/tax-data-controls-and-governance.md",
+      "sha256": "6dd902eec05556bb25cff9c60677e419ce166d9c44ffb2db9b90a0b775a43316"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/tax-formulas-and-metrics.md",
+      "sha256": "83a7f8334555f1aec8543aa3dcca46eacbd04db4826896a14fe70b6eb527b8f5"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/tax-ops-lifecycle.md",
+      "sha256": "b989c05e0d7cfa4e97b24fabc201893e16716defd7d9aae7b37370ed6faff3bf"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/tax-strategy/references/transaction-tax-impact.md",
+      "sha256": "176aca35a3f85c074717af3afc73ec772a59f0a91f51afedd23e91ef47758cb1"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/README.md",
+      "sha256": "98d4c5d5bbff8e4f9af8a0799a9a5695ed18cd1d12934e9211fb9b354a226c28"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/SKILL.md",
+      "sha256": "ec1ee39a74dd8c0de383ede3fee407127094fcd267c369a0003b4d6241da3815"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/agents/openai.yaml",
+      "sha256": "7ec339a101937359484bda0b223a6262f9f5a95f8232f18b3c864be295d6c016"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/examples/technical_analysis_packet.json",
+      "sha256": "6c2300d62f65715951bb6c70e9722fe501c9904d97c7f1469ef4194729eb1687"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/references/agent-and-replay-contract.md",
+      "sha256": "0208baf66772536070f5b35d643b48874dec8cd4e2e145e413f5aeb310236e47"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/references/body-of-knowledge.md",
+      "sha256": "0add1dd789171aed509dc59515c1e2a143bc4716a281bbfeaff92a31e99b282f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/references/evidence-and-walk-forward.md",
+      "sha256": "0d63a8b85d7f65e70bb6a9ce0342c4737a8abd81520d4760376144030188da9a"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/references/pattern-and-indicator-catalog.md",
+      "sha256": "757d3fc3fb79eef526df097fdd56a60a90bb096d01376e2731d8d503a511743d"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/references/source-map.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/references/ta-vol-reflexivity-study.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/scripts/validate_analysis_packet.py",
+      "sha256": "aa72e0e9950d5c2c788b96cd467b150751d4ddde98a20150ea50856d019a7cab"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/technical-analysis/scripts/validate_causality_contract.py",
+      "sha256": "92c1d94e92af7379afdbf1350cc84f6b0ddfbec9bc518b91741c24c1f40786d8"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/SKILL.md",
+      "sha256": "d7c472fb076dc37d9105f491a0321b1192b75cc1e01aa68f7e39bf18d4dabd10"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/agents/openai.yaml",
+      "sha256": "5b0b493b61b86c0ff98037813951783e19bd1611c04df6dfe4b393b4ec04fcbc"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/beneficiary-governance.md",
+      "sha256": "e4e8501ccea1c0d4f715737246551f142c0a1d8a83e41ad20dc7d4b08408170b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/ctfa-competency-map.md",
+      "sha256": "7007414f985b1aaaf3958b9894c87c70e6b7c7a9c86cba37ca579e2ea13b829a"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/distribution-decision-framework.md",
+      "sha256": "16a7abd773211528f006f4f0bc8b0dc275beed733a1ec95fb6bcae79025fd12f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/fiduciary-principles.md",
+      "sha256": "cc8b729868bc71353fd311e34dfa1db193840ef598e7296719b57d59c2c855ab"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/special-assets-governance.md",
+      "sha256": "ed1b2743af0d086f5e1d8c2122b0e9132558fc746486c51987f67c05357b5700"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/trust-administration-lifecycle.md",
+      "sha256": "059d6538a1c6403805be4260d53556b3ed93712bed32a6325f396e2068040b84"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/trust-documentation-templates.md",
+      "sha256": "8513880c977627de88b498ed6990b53c08a452dcf7cce3e11cffb837504a7cb9"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/trust-investment-oversight.md",
+      "sha256": "7e0af2d2c8ae6e71405255a268c95d0e62dafe6a095435ea297481fcd778a505"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/trust-risk-controls.md",
+      "sha256": "62c92214da226f714251800ae00ed0b2b47647d6b736828e101fd8004a941b18"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/trust-officer/references/trust-tax-operations.md",
+      "sha256": "cfb10d9e838e7fd6b16c901f88f3ffffc26b1ad411d6edc6ed4835b1262c27cc"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/SKILL.md",
+      "sha256": "e758f9b295d0338df72cbcf1ac69c1f429558c0a8638e3982798478fca59145d"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/agents/openai.yaml",
+      "sha256": "84bc8f822a8ea2171008f514e644679c083071ad912af23b5b9ed4ace98d3fc3"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/asset-class-atlas.md",
+      "sha256": "8f90b826eb3380f9369cbee78059d21da390928f6b8d78efa1f68de2369b4d3f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/asset-equipment-finance-leasing.md",
+      "sha256": "0063087fe6188405abf4560b5f37d43b82eacb3cd98d4d6119b6ae53089c9bb9"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/asset-management-portfolio-playbook.md",
+      "sha256": "2bae448193e069fa747069cc69d9aa28324635480a3bb17fd85a3f929e3567a4"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/banker-xls-ppt-deliverable-standard.md",
+      "sha256": "8e4fb118e5022897e0a6c93cf969e83fffa72c08e7d45e5dd10ebfc4a92901e7"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/capital-markets-playbook.md",
+      "sha256": "6a2169f0808409f4e032add8eaee9090cd98b470c33764cdade38b4532b3851f"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/commercial-credit-playbook.md",
+      "sha256": "4a62a35b16351ca50eec80b2005da43c95ac53b2ee4c3af93ee0034cb301f3c0"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/financial-services-ecosystem-map.md",
+      "sha256": "9cfd22dcbe33e09d2933a8d9efaeb9d9bcc2612015124f992774c44b62c461a9"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/formulas-metrics-compendium.md",
+      "sha256": "fc87c8ebd47c6e3d4b394fd2ef6fe685c912a27ec861bc794c1606fa1130b079"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/industry-vertical-lenses.md",
+      "sha256": "46cf1d0462507acf97219713fbfe9c178cdb0c9e4861aea9a700dfe44cc312af"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/insurance-risk-transfer-playbook.md",
+      "sha256": "68a336e5cea0e90ac305c265844db704049f7409dbdad1920703522811993f26"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/ma-advisory-playbook.md",
+      "sha256": "c14512ab2c587e278046da9702f0d35c6f4df21e67578ff03c69047f987eb4a8"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/market-making-playbook.md",
+      "sha256": "4e30dbbfc7cbb5d5874d27538bddd8baf44331c6f05aee0801970adaedc1017b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/microfinance-playbook.md",
+      "sha256": "1b23f72ecefe540a6a38746d6370397abe2a6d5ab9cf65996d466e58179d0617"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/mortgage-playbook.md",
+      "sha256": "e8eaebfc78b1b3fb0353cb4e1bfcec7712a4edfc013795997e331031aca7aa64"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/municipal-finance-playbook.md",
+      "sha256": "59cc27d37f8b06df233e8f6733718b1731adfc7f31eae6f6162c35387aae3285"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/owned-research-lifecycle.md",
+      "sha256": "92d8f8dcbc66694e593b448c59ff420ff7e72a707a5ce28de11fecf1d0133112"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/plugin-support-map.md",
+      "sha256": "a8471d631f60aefa3b68fb6e7ac25e72f258e833d61e295a10524c6c815f1140"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/private-banking-specialty-lending.md",
+      "sha256": "f264cdfd6c1a5c69ee4504cd8005df0e942220f01daebbdc537f49d40863c1cd"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/private-capital-playbook.md",
+      "sha256": "50647105e01936ca930deb8afdd92d5d35f6153ec32417194941484c83fe72df"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/securitization-syndication-playbook.md",
+      "sha256": "f7d65951ae910f9e406a84c12c10dcc617dd0f3dd2a20e30cd5f2b5ce35a0905"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/subagent-orchestration.md",
+      "sha256": "bbed30ce2293175175382a4261940a8c34e422c28dad2eb702ca87b01e220f54"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/treasury-payments-alm-playbook.md",
+      "sha256": "61741433f9b45493d2c090108b933572931bc7d817bc81da59eb36ddf2faef9b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/underwriting-core.md",
+      "sha256": "ad2c18cbed4846b8863f953822f4b1a13fc0ab2faa2fc00198c88689cad4dcf3"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/references/vertical-matrix.md",
+      "sha256": "8e2f61dd7edd2b14a4776330dd3de62a571b37c3ac780bb9af62b5c7d40b4c65"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/universal-banker/scripts/vertical_router.py",
+      "sha256": "0bd7712a22bc874c8b028c88451b611e7c66fecab3e05ba8bd81ab25bb78e0a2"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/SKILL.md",
+      "sha256": "93e23870224ce7438c3fb54211bddd677963456d4da9ccd5ac20eec785327b70"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/blender-figma-routing.md",
+      "sha256": "b5520c4ef49451995b490caa79efc49052dfec36af27a96e46be946a5b64e4ff"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/cross-medium-design-brief.md",
+      "sha256": "b1e006f09c8950d88bc6d7bcc6b6d30f50c27fc337c64979e46f3beadab19268"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/design-frontend-execution.md",
+      "sha256": "cc0bba0de880dbc5bb371b20cf38e90d85152eeb3a8e1c623c9fae2ec0dd6784"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/hyperframes-video-production.md",
+      "sha256": "d3313fe775d291c970b217b9d1431eb8ec2d32570c6aa0fe948dae9892e06d9b"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/interface-detail-and-reconstruction.md",
+      "sha256": "ce437c1de4b1ce6aca4ca3439267712b9f36fbb3fd5c88eff41fbc1864f073f6"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/medium-playbooks.md",
+      "sha256": "b08098d5a14a9974469f923edce5d00a554cbacd95043f359ed3cfddf6ff0f3a"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/quality-gates.md",
+      "sha256": "72e0e3ec53cba06e25da0fb0493334abc7a344765dda1abfa6827740473b4bdb"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/recipient-document-system.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/references/source-map.md",
+      "sha256": "78d49f5fc2490589d3adb7ce2b4d3893fd2ce8cb43ed54c62dff7bc57bf6c062"
+    },
+    {
+      "path": "plugins/institutional-skills/skills/visual-design-operating-system/scripts/render_document_pdf.py",
+      "sha256": "05ca5d45509bb1c1815ab4111950d856503e67c3ebabdfab52fc2a4d0978d871"
+    },
+    {
+      "path": "tests/test_consumer.py",
+      "sha256": "59b2c94a61c7f128b707cf5d6de8c8ac31165a6fbee1ffa0735ca6bec77af766"
+    }
+  ],
+  "packages": [
+    "financial-house-operating-system",
+    "investment-management",
+    "universal-banker",
+    "global-macro-theme-picker",
+    "technical-analysis",
+    "ai-ml-research-lab",
+    "growth-operating-system",
+    "ethical-supersuader",
+    "agent-ops-control-plane",
+    "visual-design-operating-system",
+    "corporate-counsel",
+    "tax-strategy",
+    "trust-officer",
+    "financial-planner",
+    "atropos-command",
+    "security-bluebook-builder"
+  ],
+  "payload_sha256": "09155ed2f5e1761aa55edd5a28221ac67abce69ba886cacd3c3f473a56209a12",
+  "private_bindings_included": false,
+  "public": true,
+  "schema_version": 1,
+  "source_digest": "479035fecfdc89329baf724b5484824d0c3f6440269b9dff717df98f5e5b293a",
+  "version": "1.0.0+core.479035fecfdc"
+}

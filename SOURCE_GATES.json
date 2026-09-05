@@ -1,0 +1,2832 @@
+{
+  "licenses": [
+    {
+      "authority": "copyright_owner_explicit_public_release_authorization",
+      "license": "MIT",
+      "scope": "authored_core_and_export_adapter"
+    },
+    {
+      "license": "MIT",
+      "notice": "plugins/institutional-skills/LICENSES/atropos-command.txt",
+      "scope": "atropos-command"
+    }
+  ],
+  "recipient_resources": [
+    {
+      "from": "plugins/institutional-skills/skills/financial-house-operating-system/references/financial-house-org-chart.md",
+      "resource_id": "bccb1e1f2fa9a2c9e5ba66f3bd65b6622be27dcc8ff18688d4a844d93aa5ee23",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "6cdc48bb784eedde58f251963cf391b60393a901603e089f8ba59726a2293702",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "b474067386736c05f505f949c407335e57b997456f98a926a204b4999a260e99",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "d20b54f4462439f04db4218cc82cf3a57355d56574ad3d7043961f8cecfca812",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "47cf0eeb9b955a4bf5973c2186a7cbec03cbe7c87365f2d63cf2b797cd3273ef",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "688e276457b1436d5e2bff6e6d5d6b07bb42c653856e716e3f22ebebc87bdab8",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "5d2cdb956e1f45211a4e9a88f11f5d259cf35dd609f8ae797589ff83516ae5f3",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "7e8299a9b153c7caaf14a891efc3a49ca54912f00a41cc616f8edfccfe7a0f28",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "688e276457b1436d5e2bff6e6d5d6b07bb42c653856e716e3f22ebebc87bdab8",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "resource_id": "de509549681e280fd135c971efbd93f6a7e8a69f06ef49cbadb56ec4d84ef9aa",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/references/market-making-playbook.md",
+      "resource_id": "8dc1f7258162c719eb355f54e45fb94d91a78101b6bfb8f95035558725458e7d",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/investment-management/references/owned-research-lifecycle.md",
+      "resource_id": "04642722dd5acf6c127fa882854b94e7b598a2c2cf43bd6aff310700815a1986",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/universal-banker/references/plugin-support-map.md",
+      "resource_id": "3738c1b141dd87fac9546a200ab192aa7d38d45890e23ae053189739920047c5",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/universal-banker/references/plugin-support-map.md",
+      "resource_id": "7353df706aa1d41051742f3e78b417e71106dca20ae2263f9c955f426eb48b9a",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/universal-banker/references/plugin-support-map.md",
+      "resource_id": "a122d6daf1a0c7579d090a7c2348bf0cf56a8643e10319f536885c54312bc3a2",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/universal-banker/references/plugin-support-map.md",
+      "resource_id": "5f930ba9452b338d394e7a22e8bd05fc82495b7e7e24bcf42b9b3ace738f3c4b",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/universal-banker/references/private-capital-playbook.md",
+      "resource_id": "864865cd70c0068da3f397ac0a054a4f82e221fa2898c067b769817bb5e7f980",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/technical-analysis/SKILL.md",
+      "resource_id": "d20b54f4462439f04db4218cc82cf3a57355d56574ad3d7043961f8cecfca812",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/technical-analysis/SKILL.md",
+      "resource_id": "47cf0eeb9b955a4bf5973c2186a7cbec03cbe7c87365f2d63cf2b797cd3273ef",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/ai-ml-research-lab/SKILL.md",
+      "resource_id": "d20b54f4462439f04db4218cc82cf3a57355d56574ad3d7043961f8cecfca812",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/ai-ml-research-lab/SKILL.md",
+      "resource_id": "47cf0eeb9b955a4bf5973c2186a7cbec03cbe7c87365f2d63cf2b797cd3273ef",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/ai-ml-research-lab/SKILL.md",
+      "resource_id": "ba6b47682cc4a2ebfc29cd308744100ea8bf9fa8de83edbb9529aa357880210c",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/growth-operating-system/SKILL.md",
+      "resource_id": "8e05bff437642936250a42a8bbec9a7984f1d3870aa065cbb716faca891fbee0",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/growth-operating-system/references/relationship-workforce.md",
+      "resource_id": "c4cf5aa27f502060959d3a2aa01d8fe7e2eb160a697bce2e59891626497a43f0",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/agent-ops-control-plane/SKILL.md",
+      "resource_id": "d20b54f4462439f04db4218cc82cf3a57355d56574ad3d7043961f8cecfca812",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/agent-ops-control-plane/SKILL.md",
+      "resource_id": "47cf0eeb9b955a4bf5973c2186a7cbec03cbe7c87365f2d63cf2b797cd3273ef",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/agent-ops-control-plane/SKILL.md",
+      "resource_id": "361a2da8a9ced4f7df19a50d87d096bee8b5e95c71cf84b8357992afb16fdd82",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/visual-design-operating-system/SKILL.md",
+      "resource_id": "8c5ccf8e687d3f494e1382fe25b97dc4902ed5d57ca684263e71f6aa8ca114bb",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/visual-design-operating-system/SKILL.md",
+      "resource_id": "7cce061e688d9f55fb2b5472f6be42b4cee28d1cc3d682149999f9e7d3a61b5a",
+      "state": "recipient_supplied"
+    },
+    {
+      "from": "plugins/institutional-skills/skills/visual-design-operating-system/SKILL.md",
+      "resource_id": "a60209ba5edf079d4d3dace753c57b581f9f902916739f866c81aa5aeb19e498",
+      "state": "recipient_supplied"
+    }
+  ],
+  "schema_version": 1,
+  "source_digest": "479035fecfdc89329baf724b5484824d0c3f6440269b9dff717df98f5e5b293a",
+  "sources": [
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "4dc8bd82e2683e9f1f6d72ed5e098d52adeb68ff1ac6f78b0c5f010a24572ba0",
+      "source_sha256": "b8c67b1426e8abdbbacce42f40655ecbbc29b41153405098652a9736c1640779",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "e0c5cbca9ef0581aef6d73eb033fda5a79dd93a09183b04a550994f657a7b9a2",
+      "source_sha256": "e89b3a597cdc3ecde2d99304a5b24e51d61920b10a1ee4d800fc2389879afb67",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "183eb009ab74c99fa54754fb2ca87841dc4fbe73210c0d6b184ebed15ee10341",
+      "source_sha256": "dc643212b71e3a1a2cd8db777be361bc4fb1859085a7a247ea88f60cfa48e77e",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/examples/example_mission.json",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "06f499aa8a2b745ddfaa5d481525769be341ffa0a1f90df3fe8cc8dd656feb73",
+      "source_sha256": "0b149cc29cbe7ef139654fbf8b0ef364510b155c55155b760c44b5c10546e2c5",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/references/capability-registry.json",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "14794343b3fe8c7c6af4bbb352472c980582837d4d42f41adaad0e23443d0eee",
+      "source_sha256": "bd8e6c646e00ad413dca919c4f500c76e7191e7d2e5aa0067d0f195181e79353",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/references/employee-operating-contract.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "e4c735d834168751544f9ca074d86550c09a29ec75e2b2ad535fd40a9f12bc25",
+      "source_sha256": "30e55c1907f34a2808a88ab6f59a6c1a332d4d4a0fcb23b0c62be7b087ff0587",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/references/financial-house-org-chart.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "c973c631055e4dc83b48a0d29bbd596d2caf5bfaeb87aaade3bae141374fe4b0",
+      "source_sha256": "a8b0d425ab287380cc5467ac349e586ca72c5f859d4913cbe4bda16664228b1e",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/references/native-workforce.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "6725ffbda12121e2d0f74bd2c32e897185e4887fbb7365723aaa5c3d4ce926c6",
+      "source_sha256": "a730ce8110df52d9845b9a5452e498bf3f5da9cabe115d2665ebbde88a903d50",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/references/routing-and-handoffs.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "3a49d1bbcf7f52fb008851568e2f1ee7c00a4e3b79f7ca05c72485a44c113a29",
+      "source_sha256": "279e6452b5ce70cf55ab35c19952a83977b6893ca85da977de10d62e2c17ab89",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/scripts/route_financial_house.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-house-operating-system",
+      "source_id": "6796bc6b1c5ae3f7b9243223486922b0bd26b3e29f23a2e3a2fb92ef6e23c15d",
+      "source_sha256": "76d272b20bea24741efdec96989b1093890441100c99d44568801691bcc42a62",
+      "target": "plugins/institutional-skills/skills/financial-house-operating-system/scripts/workforce_runtime.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "financial-house-operating-system",
+      "source_id": "b8ad44039f136ac1bb42381a070014a48714efc428329fab312883c169f8a256",
+      "source_sha256": "a83c7e92be6a141649369f0b7fc794fd3a3f6d7ad340741a598a6a529cf11ee3"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "financial-house-operating-system",
+      "source_id": "11cae695f588438668b429985845e94129ecb19a1727b1781f1ad1f99c613c24",
+      "source_sha256": "e5f83c7da98d90b0625bb9d1a27e072ff8f40a56350d1cbdc57f0afa2171c8e8"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "financial-house-operating-system",
+      "source_id": "5435637fdcf630757f5cd5883dab5102578257e77f319f36093ac811950dee87",
+      "source_sha256": "b602b7d1cdb41a6be8d6ae5dbbc34481ab2cd9f9f384e0def6ddefb8b97d28db"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "c2e78f8960568ae544c639928cd6889ed1a22488143d6f8ca20b49fa6f59887e",
+      "source_sha256": "1dc5fe3fb359bedacdde6daca4ee32e83db801fefe82ad9729fe02f19e4b01a0",
+      "target": "plugins/institutional-skills/skills/investment-management/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "dcb8b08584b795d8ddf0a243bd2a2ab63a166705a3fef8bcffb952f935f76070",
+      "source_sha256": "c22101061b798c2b92f82284300566de29316f3268720f98c17edda8a8447a00",
+      "target": "plugins/institutional-skills/skills/investment-management/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "3d5b6709e0b77fc26e16dc03e7fa3cdbbeb6744f4d66f71bcb4d78d5f88b072b",
+      "source_sha256": "3b8ec3408939166637b4409758a5c34cc11309b81f9cc9e034de4a397cd0e5f1"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "replacement": "recipient_resource_contract",
+      "source_id": "e27b6bac72fbea1523b04d01306d88561a7b9a445455a2f159fbae6070d39e51",
+      "source_sha256": "35057457b6f9c3e2c14b0311219717857846b1e3d708dfc57640d3933675cd66",
+      "target": "plugins/institutional-skills/skills/investment-management/references/ai-ml-source-map.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "a29351e9a456d8f99823c2336939a83d46c5622e08f84c7cf4d6ad6af2456a69",
+      "source_sha256": "4d592a42023638424e42be9bf60f5eca6efef126653d8b326f6b5fd141a9232c",
+      "target": "plugins/institutional-skills/skills/investment-management/references/asset-management-operating-org.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "aeb98f0c6fb1b14fa0e96f0825e7cf2078d68e83b0eb26378d6fa40a3fecdde7",
+      "source_sha256": "67ce143c5cacd21d32445e41ad736f03e19e5f9916e3ba18fcf6046ab3230384"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "73253a8e64a738609d8eeaf9024918309733f410451a0a0166cb6699a570eea1",
+      "source_sha256": "1bc54915eb2778b1b6a8eacfa0b07fb8c568f2cd5caa3ded45fa28f47c83c73e"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "96d607bf4bd78d024a26c8fb822cedb4826100188410963c459644da9fc60d19",
+      "source_sha256": "08ffdf44102c074a85eae6a4b015e6c3688f403e7cdda6793b83e263d029cda0"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "5aaafe4bf28ed802071c68d2bcd5491982d23baf55310d807d600bf418919a6b",
+      "source_sha256": "6b743f81b2214c136fdb9bc9897df922cf26ed8c582ab5e0bc4059b88bf06b0a"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "bdf73dc804ce27137a23025e75a906f7d64008f4dcd2ad1a9ecbbd4f06416f8a",
+      "source_sha256": "6a39732885349a23e2a446731adf7b74ae7409433abc5e44ff85eb9985ccbf83"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "bb6f9fdd40f0645ca9a89d4495aac0c4a580c995005831680d29981b40d67b4a",
+      "source_sha256": "5653b45b31e8713e3adacd5253fa92e1403b9019d13df7f2941412a0d12800ef"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "681158af5ed80f74197478b9f3a45900d7064d2c67eee3f7429f8c778a1354a1",
+      "source_sha256": "34c2902ac6c014c28123b016631961db51c0dcdd2d4762d2b402abd9b5df93bf"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "ae2998ef0fcffa8c5a4aefb9b20a47da2dfc2660298a2bcf6a990b2e4a0b47d6",
+      "source_sha256": "2b7a954755a3549547428614fd1ec89136e310da0de04b701670bd3593b35c8b"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "46e69d8a60e086a4ad51356de0bc36430fa1036227702ffb0e34a0187cf6b598",
+      "source_sha256": "7e6889e07a13f3e0a928e85812573fdd11c0d6deb37ec0f57a6ef349db01387a"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "7972e9ab145caee69f192bcd1c657a8fa34487c5733351cf717cb8f104a576f0",
+      "source_sha256": "3d3bf9adaa5c7775d14ded7a9cba88a222239dd10e5dbc4c3493d0b35bbe69b1"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "2c6162450da62bd59d978d86ce8357204494eb241ee7f81ce9951ccea8c12f8f",
+      "source_sha256": "26ac6f3783ef0e234e3cbb5426776e768f33b037cd05dd75707b3fe5f17e65e9"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "3e57b39ea0dea2c45732cfa2fd35f1c1bcfab4a5d3d1365f62608ebc51e85db5",
+      "source_sha256": "1f6ed6419d6d6005b6ebde516ec6cf94c6e94ed815aa76fae217defdc9e3171d"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "0e1c5bd94de29a251f8580645e5c82212a18ee144a7103d5f61e1e87ec24a38f",
+      "source_sha256": "7b5942b2421916028ff15073c1397bff4af0a244d1fabf1c62428a1961169d94"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "2f66a6af625fb7142a74ffe59f7f05e93eb7783e6b17d7dd201c91ea129e22ba",
+      "source_sha256": "acbe78033a7d43bce6f2f855be576ad157d7d467cb35a11957cd577eabde827c"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "bdc614e57cd86e39f24867fde17f6d3e46c516e724c54c0ff76d461b843f0488",
+      "source_sha256": "a542accbe155cf2b003abbee27ba702cc80c6ffac2250c56e740f22ad15d5679"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "d9e733e6db997092b9335ee1e11eb979a3b719e414bee80ed41b529fabbb30a9",
+      "source_sha256": "cf6cebfcee7c3b4aae0d0d4e5e91bbc94d5e09e9c2b6ddf62bcb472855966d1d"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "830bf4c97439d52c240f4453087ebb1aa6449e1c378e801a7affb2c744c67226",
+      "source_sha256": "928f3ec0704db2af90aaff99b3cbe22a7c71dc96e92c1b96635b758f226eae6d"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "26e8956d6e0d4de592e12363a2c353966b0b53fac41d59a29e53d24521070df2",
+      "source_sha256": "23229d794f67e1d59e26edd4571f7a29623e3bbac34c058bdc6fde988cec0923"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "9729596e3071b69e27be3f48318305293938ca47aa5522a016f13cc4d59236ac",
+      "source_sha256": "45a1ec95c855b5f4393adf5930b982fbdee785825353edf3e0cea779f4bfef7c"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "7847260d89aceef51c291bcd7647a278be716bb5081e4e59f0d22e848b75e745",
+      "source_sha256": "5d2dfc8ff2b8bd32e292955ea867232a2e88b613e36fd4306ee201dcc2a5bde9"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "f591222d9aeea654d80c2a429f1c8469da7823b74ee720bdc4747fc6342dc891",
+      "source_sha256": "6a23ab67f7e398857d4eb4c59d7d0bc81e81568edc51e95c99fa3f5f6f9ed90b"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "c4c623d6c777ba229b5313f6fc40b511ff5d77e1b9f4762da2ffe36dd495bdfc",
+      "source_sha256": "9594f502b452d313e05d6f7eb42a810794d379560142d2cc1d8d8e2c1010fdea"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "b4da52671f5edfcc80fdd828ecfdc208d8f6fb3360e55dd83442764e798d9d93",
+      "source_sha256": "044fdf92d0f4f77174091e56c16a3f1d75ff133aacfcb2bf62ad26454db661f3",
+      "target": "plugins/institutional-skills/skills/investment-management/references/crypto-platform-and-venue-due-diligence.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "efe3a0fbb5c7150122d2b5b3b60a6f51cdc24273a96fe15ea2feb1c85e670f47",
+      "source_sha256": "3047669db439c1b681a1909c5c81eb0794b7fe0eb9aabe1e76355658bdcf2aff",
+      "target": "plugins/institutional-skills/skills/investment-management/references/framework-notes.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "3f9ec587d715ca8aa2b2fd0a682d8583cc87506c1846a3e04edb6c48893f7d24",
+      "source_sha256": "13e9ce405dfadf31aca3f2248fa80048928d3f8ece1178065c64cdb16a592391",
+      "target": "plugins/institutional-skills/skills/investment-management/references/full-cycle-investing-preference-model.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "333ff9766d7a4fe10c1327daaca71edac4004e5605c348bdc3ae1e60ef3c38dc",
+      "source_sha256": "9f0c7e5d9e53f5c81cb2007c35594bae14fdae27560ebf9d50cdbf8b52bb8d69",
+      "target": "plugins/institutional-skills/skills/investment-management/references/house-investment-philosophy.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "658944d715ad87876a21df1bee737c6556081712a6197892b8c31ae30b45116f",
+      "source_sha256": "6f5837795bb47d3d38e23f0b9de52d10b03adf083f671832e3a652655d694d4d",
+      "target": "plugins/institutional-skills/skills/investment-management/references/investment-firm-agent-roster.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "30efb379989fe0af67cd9b63737d6845975668cd87006769bc5167327184dd73",
+      "source_sha256": "42482a0686fa1a1f1ea4c76815393515ab0889ac4833de19d95932184ff32257",
+      "target": "plugins/institutional-skills/skills/investment-management/references/llm-finance-agent-evals.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "2166351319950e9744b3c48d5b83f15f300f8fc9965461d519ee682ba24485ab",
+      "source_sha256": "93800890a7c074ae6ea2eca962eda4313da0c67652d30ea31cfb27beb254fee3",
+      "target": "plugins/institutional-skills/skills/investment-management/references/macro-desk-integration.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "4bcf6ef4e5f2522a8aad038af11486a2efd074f161271af2f492a1c60660ecdf",
+      "source_sha256": "4ed33008d64260ed84ae221c75fb56ecb34900f751af273bddd74cc41785ca7d",
+      "target": "plugins/institutional-skills/skills/investment-management/references/mandate-playbooks.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "af2b643ae6388d8867889bbe16a7534983421d521892eea4cc1e91f515ab0391",
+      "source_sha256": "c2c960ae689779dc529dae064b041213533cf7d7a61a6feddd8d64693d933bee",
+      "target": "plugins/institutional-skills/skills/investment-management/references/market-making-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "e0bf187a103b67003d8a5fdf0b2447fcd8e79d5faa0056f6c8e7869bc4383a52",
+      "source_sha256": "ec6469c45b3a84944e20cdfa769776474154aedfc667f4ed6e73f3812eab05fe",
+      "target": "plugins/institutional-skills/skills/investment-management/references/outcome-linked-decision-ledgers.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "7625b4826f88751f3af8dd9360935be6692d8e7d6dfc04149a9fb55b8265f8aa",
+      "source_sha256": "6e3f09031d6577430de38903d2ea00767710fdd47eb43e72cb298c060ab93683",
+      "target": "plugins/institutional-skills/skills/investment-management/references/owned-research-lifecycle.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "replacement": "recipient_resource_contract",
+      "source_id": "856120988c3494eab4a17c96b84de4ff2ed74215078cf205ba158337df2d5e0c",
+      "source_sha256": "259c8027453b7d631c7f2504dd07e6886a0ad22ed67becc9b82c9b14ca0b76e3",
+      "target": "plugins/institutional-skills/skills/investment-management/references/paper-index.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "0a654dc14e39b6f8fb75c708bbc972a9fb799d444b27d137507e324a8da90c61",
+      "source_sha256": "6b1251d8e60cc9ab790f3f53e53324a75986d6b720e388d92e12d545ae428dc5",
+      "target": "plugins/institutional-skills/skills/investment-management/references/performance-governance.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "41f5cd6c008aceb461954ae965ed88efdd922880f2f6daf0a3bbdab1ad77e49d",
+      "source_sha256": "58a46b2a4637cab1be0430991a54fa626ef1bf089a3a5c749c25f1b547966f00",
+      "target": "plugins/institutional-skills/skills/investment-management/references/plugin-support-map.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "76315e3eedcbac60d1e56440f3adab0b7f34d9d8f07ef3de767407adb72a990d",
+      "source_sha256": "579756c47cb812ee78bf509d1483a1417e6d824c6cbffc3e47f55b73536838db",
+      "target": "plugins/institutional-skills/skills/investment-management/references/prediction-markets-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "f2e62d01d06bee9ce830e8403c12b6b47f4fa4a3f0ebe96f0ae9bdcd54ff113b",
+      "source_sha256": "bb0f19745f647937201c98e6b454ac291de708125f4ca00aeee705ded3aad166",
+      "target": "plugins/institutional-skills/skills/investment-management/references/quant-ai-benchmarking.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "7182a86975de01c586d2cc7bf84948fba8b9ce9e63954579da65424aab2d17de",
+      "source_sha256": "727181c63a8acdf29a204f90c778b0b37279e8ee993cb8856c059f545ebbc367",
+      "target": "plugins/institutional-skills/skills/investment-management/references/recursive-improvement.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "39c2627e360f8c645112c99802c53eff8699d51db74dfed895495719509493bb",
+      "source_sha256": "15ebb7df8956a0461de668e4a1c8d54dfa74ce2bf05dcff3f87b32b487612bdf",
+      "target": "plugins/institutional-skills/skills/investment-management/references/rl-market-simulation-lab.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "af9727d51d090a7d309b8c1f401ab396c1d59edf576a8181e94b5b2c2ab15a66",
+      "source_sha256": "d87d3c563fb342b9f53a003939938a39f65efbcce04bc22b2560a2215b56471a",
+      "target": "plugins/institutional-skills/skills/investment-management/references/skill-coverage-map.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "replacement": "recipient_resource_contract",
+      "source_id": "46ae26521d4c5b1be7fb43d517cf331312ce33ff896e93a8aa016cbe46c5109c",
+      "source_sha256": "ae36004938987d7cda154e15d04fce084c453c5b60d5cb5d9338e85a782a5e5c",
+      "target": "plugins/institutional-skills/skills/investment-management/references/source-map.md"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "6b97b05e0b93b60e436311ad13d41c0dbbb07587ea54b8a17032e3598d62ebd3",
+      "source_sha256": "e0951b5c9197e1019c92d56d0f04cc8b9f756796603ba322ab526c93d0b8f458"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "b72338c4f25441e768900847becd2201cf0bf1e9765c43b8f927c084f1b0f7c5",
+      "source_sha256": "447ac00410b1c7d4e1325c4f8bb5867cd9f921d3dd12621d774b5b0f69b8dd86"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "8972fe6e6f82fae29d672b8b5d4722bd103bc620f39bfd1230d7e932c447c057",
+      "source_sha256": "40d7fba60f9401e9de20dcf7e72c82d08c521863c505c7ed76bfdcc33194e0df"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "dae9c829569439e10cfa82b8e6bfc7bd6969f46af87a0ea2766cb477d4d6649b",
+      "source_sha256": "67ce143c5cacd21d32445e41ad736f03e19e5f9916e3ba18fcf6046ab3230384"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "0d34e7ac1e3cb21623e356a3da3f5f5d41d8a480dd3ae2813b49fad06173b64b",
+      "source_sha256": "1bc54915eb2778b1b6a8eacfa0b07fb8c568f2cd5caa3ded45fa28f47c83c73e"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "a4f35c849e0cf7858e6b692146c0d152cff56dbaee60d27e9655a910268567a0",
+      "source_sha256": "08ffdf44102c074a85eae6a4b015e6c3688f403e7cdda6793b83e263d029cda0"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "433b3ee6adc54d31216aca9f787b711363840b12a682f69911e1e4f4bfcd46be",
+      "source_sha256": "6b743f81b2214c136fdb9bc9897df922cf26ed8c582ab5e0bc4059b88bf06b0a"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "e19b461d67dc944be89e310bc3fe9fd22e78857b95287fd7560efe81ac381bd5",
+      "source_sha256": "6a39732885349a23e2a446731adf7b74ae7409433abc5e44ff85eb9985ccbf83"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "4e747f369dbf92f6a6a61409863399ac25d21173f013d355bb0cca2dc84e5cff",
+      "source_sha256": "5653b45b31e8713e3adacd5253fa92e1403b9019d13df7f2941412a0d12800ef"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "2ee5e977a9e5cdc31275ab16a2482cb646a82dc2e579ac9e73edd320d15c001a",
+      "source_sha256": "34c2902ac6c014c28123b016631961db51c0dcdd2d4762d2b402abd9b5df93bf"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "53ce2c35177d71a736b1c073eb469acdd13e9af805fcf277bfc8a462c8443391",
+      "source_sha256": "2b7a954755a3549547428614fd1ec89136e310da0de04b701670bd3593b35c8b"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "4d91ed8b7a597bd2d64e5ed4db552ed569e15c75e489261f100122cde6ec17bb",
+      "source_sha256": "7e6889e07a13f3e0a928e85812573fdd11c0d6deb37ec0f57a6ef349db01387a"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "b482bd64f9ad85d2cf8e0b9e1623896d2f60bec6ac9fde4f8e7a1b6210ba32bd",
+      "source_sha256": "3d3bf9adaa5c7775d14ded7a9cba88a222239dd10e5dbc4c3493d0b35bbe69b1"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "792f4c7a0afe7d38a8f2c53bdaaa4ea957bc9efab20a795b58d8d320979e4058",
+      "source_sha256": "26ac6f3783ef0e234e3cbb5426776e768f33b037cd05dd75707b3fe5f17e65e9"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "54594c48a00276b9aaad8e5fda563e39dd212273ee3065e6f655929e810c565b",
+      "source_sha256": "1f6ed6419d6d6005b6ebde516ec6cf94c6e94ed815aa76fae217defdc9e3171d"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "a94a996356bd484eefc2143f4137088436bc908882d9f4ffdd487e3039fc0fa4",
+      "source_sha256": "7b5942b2421916028ff15073c1397bff4af0a244d1fabf1c62428a1961169d94"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "42d5a3003a8bcfd7926bd7a71732cb788bc4e0407b13519d5e060d4f16f63a70",
+      "source_sha256": "acbe78033a7d43bce6f2f855be576ad157d7d467cb35a11957cd577eabde827c"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "5976a0f4fbb92521c4d3e6cbc965d686e5529b738dc32236cc2a027baf5e84ee",
+      "source_sha256": "a542accbe155cf2b003abbee27ba702cc80c6ffac2250c56e740f22ad15d5679"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "291562e820de6ee49417ffbaab70943e8f70b26a578ddb7ef487ea1d25edb251",
+      "source_sha256": "cf6cebfcee7c3b4aae0d0d4e5e91bbc94d5e09e9c2b6ddf62bcb472855966d1d"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "c67f63818b8856662ff8b0667cc2b739365ecda100bca2eed3866fc9d9ed9351",
+      "source_sha256": "928f3ec0704db2af90aaff99b3cbe22a7c71dc96e92c1b96635b758f226eae6d"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "b24d7b751b9a35737b31fcedae285328a466cdd45c302d592055462eed25c2df",
+      "source_sha256": "23229d794f67e1d59e26edd4571f7a29623e3bbac34c058bdc6fde988cec0923"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "7d07a9f5faf29347fe1745b4390888b7acb2b07f4587b31b6ab39a66b447063f",
+      "source_sha256": "45a1ec95c855b5f4393adf5930b982fbdee785825353edf3e0cea779f4bfef7c"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "02a4b9d75e9e87eec73be9894e170f02ea136c22f8cfd8e371fab8df874b40ce",
+      "source_sha256": "5d2dfc8ff2b8bd32e292955ea867232a2e88b613e36fd4306ee201dcc2a5bde9"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "587339162067b537c26ce22811dad987a2f371dc86cb236131b2708bbc02fd72",
+      "source_sha256": "6a23ab67f7e398857d4eb4c59d7d0bc81e81568edc51e95c99fa3f5f6f9ed90b"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "9e003a1c7260095d96c1cbac546a7771cb479ae219f94263ccb6528b9896c505",
+      "source_sha256": "9594f502b452d313e05d6f7eb42a810794d379560142d2cc1d8d8e2c1010fdea"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "5bdccc172208863287313816c6171ac22ac3ad7475b41ebc8365da30dab7d546",
+      "source_sha256": "419b4d86fd1445f9004cbeb4e692d8947e675841bb7231c8c5110ed6038ea179"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "7c6025221a5a8c9b0bd88605f660515c72265cc4ceabec530d7a49e29ba9aea9",
+      "source_sha256": "c2c960ae689779dc529dae064b041213533cf7d7a61a6feddd8d64693d933bee"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "2f349c967e4da41f2eb19e74cad336e93c95b27fad290583accfc2ccdb87f495",
+      "source_sha256": "fb7d6b9142bc1a2f44661723e8789dfe382fa86f2ca6df7243e7c9eb50e6163c"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "db4476c61efb31727b4799844f5c8748151a67d4da8dee25ff45f3f50b236dda",
+      "source_sha256": "b5dd47d3641d1dee7afaee73816c40364f88c4ce14a4b6c5c224d322bebc2587"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "99542db98fff5cdd4d7a9fc949cbc62d342c8d84d4010a6046d10c41f21ef292",
+      "source_sha256": "579756c47cb812ee78bf509d1483a1417e6d824c6cbffc3e47f55b73536838db"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "d1d779e7860aa5b17c3f02e79724683d1b658dd88c7fc04636925ed9e9744de2",
+      "source_sha256": "727181c63a8acdf29a204f90c778b0b37279e8ee993cb8856c059f545ebbc367"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "daff47576d1fdfbea6da192c631dbc2e6aa60504c414296094b478410dd7d04a",
+      "source_sha256": "2884abadca76958d741a215c0365db348b3f8832c752aa5b5a8b948ae3356c37"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "53eded9e988c1cc742b040fbd7a20db422dae70f35afee33d2f8c768f8213f62",
+      "source_sha256": "1b352919e869d51d6ea3e31cfb09a07b8f92c9ee92a9c0185feea21b57ecf4ae"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "6a95809638cda127c9341a5c7f6ff3c59b2c5bbe28942c43cd851cb716fd1333",
+      "source_sha256": "5e302e5650f6be22373cff5fe7c7360f7f4be488b016ac7df86e177ac49f92e3"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "88cb20d1fd8b52ec5ea11f3dc81b355234b18bd5a9cfb6fe93ee7b21823dfdb9",
+      "source_sha256": "051347f46d87fc8f86a96db67e01e5320305cb5b14e40e930e8a372b95d3be74"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "098ecb73284c49afba20ccc494519c7b6d57c04d8faf42e8bcf2385cc4a87ac2",
+      "source_sha256": "fb13094cda4671441159016c0a582049e1d179d7f8810ef36bc247f70d1c19bc"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "abc66789325c2684a59c0cbe81c03be106594187e0cb4215ae9efc108c1afe70",
+      "source_sha256": "0b91acfdc4cb503182c93d11b172190f12eda9c8582e23d4ed76964a3e05974d"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "db80d0a36ca9072feadb4d8a8c1927b8bd2e75cf59e2439c131cfaaa87644586",
+      "source_sha256": "614227688f013de14f142e6ddcfa492c28bad12ad47ee8b44a48cf41e5f48245"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "4da667419aedd18e2457f33b6dcce736ccaa429d1aacdf66e2f8fa0da2fe78dc",
+      "source_sha256": "ce24006b086e5a8895cb4cfa482a1e53055c6501151840306ead7a516de5c93b"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "9e2f64e70f136ef4d7250962dc7c347af3e2966f4ce830fbf105f0fe562bd163",
+      "source_sha256": "125bfd22c120493483221e78d0cae90d855c4e5d6daa13b60f53c75cf3a5c1bd"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "1349e8330c37e0b78cad2c93399970cb0b41a6298e181bac64c6b1fe9cf30a61",
+      "source_sha256": "fac40ed1fd0b15b66d41422c39020b64d50439b76b56cc0bb03670fedaaec044"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "60ae6550d07833a32f61b6682ea87d8bc78f63989d4cabc9f15381871d36ccf2",
+      "source_sha256": "f7e6530d03a9d5a5fa6afcea8705ebbbfa89de5560392b8d5e62168010de914e"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "9d844571d816db39d81e28a2f920fbfb3cb6aab4768333eaf7514126995a7348",
+      "source_sha256": "f8b0e6b30a316857e25e2e7246e6037f6b8b7ef33240e7b09009b90783434de8"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "873ce4e1ad000f82839a8084962cd71c272f3b2205d9000d5a6b79524e0644a3",
+      "source_sha256": "2d5509a7c060b3e72f4e9b23359ccef4bcd560b7daa119baf7121496a2c8a73d"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "dd41884e1671a182f0c56b8bdada9defb5c2ec07c937b1699f0481c565c2105d",
+      "source_sha256": "419b4d86fd1445f9004cbeb4e692d8947e675841bb7231c8c5110ed6038ea179"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "432ab31499eb91a824c2e4ee492c498374ab8513c138a1dfdd4d978b1fb81b9c",
+      "source_sha256": "e313367010a556bd10654f7ea131639965471f2454bc39789b3ea27986f68114"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "4361d9113eb48314d34d5d6e1d3a488ffb6f43f2fd7e4d2b48eb64c1dc101e1d",
+      "source_sha256": "ce5644c7bf72291dd3a0bd2cd2f15b64a482475d2f6cbb50d1111e98ad1610c8"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "478b8e4274db9c23cf561e783c1f625ca845db575bce39e924d0d30564eba8be",
+      "source_sha256": "b5dd47d3641d1dee7afaee73816c40364f88c4ce14a4b6c5c224d322bebc2587"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "7295e56d739a4dff18ddd684bb46b6408ac888cbe66a024ad36727ebcce0ef2c",
+      "source_sha256": "aeb2e89ddfdb3b804c0367a1d89265c6a54a91506b76ef36ef06bed8af532267"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "e1585afde31227e0fc6d62fdc957b8de1f1ae360568bee02f36c6bd06d61605d",
+      "source_sha256": "727181c63a8acdf29a204f90c778b0b37279e8ee993cb8856c059f545ebbc367"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "a265c193fff0721929b0f1d20abd783883cf22001b1ddb9bc097cc62ae7eef64",
+      "source_sha256": "2b5631f30aeae1f35aa674ba75265d43166da5172e7d3347102b1575e9f655c9"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "c1e122cd387b23b6f0304be1ee7a6c1907b0bac6aadb49fe08665fe3ebb25123",
+      "source_sha256": "1b352919e869d51d6ea3e31cfb09a07b8f92c9ee92a9c0185feea21b57ecf4ae"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "4bd6b366b462efe3cae397e466673a0c2f54d5c0d3a66ab9357cc810f1fa4c77",
+      "source_sha256": "5e302e5650f6be22373cff5fe7c7360f7f4be488b016ac7df86e177ac49f92e3"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "6b3ef080c06f6c640fd429c816908df767d82cdd6b78a0714aa99cd4a5ddd3ea",
+      "source_sha256": "fb13094cda4671441159016c0a582049e1d179d7f8810ef36bc247f70d1c19bc"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "511ae2e907014276717c3ba1af40d624c9d1f446a9dadc370fe74de3f0c4485c",
+      "source_sha256": "2fbcc109f6d004d1db292b5c8b85cccbe5a0cbf7c9eca610b82095135a95e5c5",
+      "target": "plugins/institutional-skills/skills/investment-management/references/strategy-router.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "500fd23a2aae619aecd74e2a13ce47860066f49dc8b7205c40410f4424c0d4af",
+      "source_sha256": "d6b42b35524f8b096edfce282a27b147bc5bcb91bd9fee1b495b993043003180",
+      "target": "plugins/institutional-skills/skills/investment-management/references/strategy-taxonomy.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "45bf24f2490593b3d23239109f676dd5e6d5e3acc31c8bf6c3210736bbc79356",
+      "source_sha256": "a0d114a4fc6203753381dd006cd6e20bde305652daa4cd887a042a39fd612363",
+      "target": "plugins/institutional-skills/skills/investment-management/references/venture-capital-operating-desk.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "ae4da61bb2a8346c179c730eb598517fc7b02d45209d1f9aa49d844c2d8b3310",
+      "source_sha256": "506c1a8487605ab80a2ef8771f7d3f9ebdf33328030b6c6046c8671a570935e8"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "ee68f633a516f7fe51fee7e4edd2f642d2c4eed8075ba24ebe8ced27bf971f5a",
+      "source_sha256": "3306a63d18674886821e33142a935acd2f2c2a5280468ab4c082d711078ed89e"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "7cdbb4044c19611bd98471e6fb8ea5e30b94def86d2fdde421a8161e4de2b00e",
+      "source_sha256": "a9aae01b7c7a1c7bc8f8cf343714d1821e72267bd2fc6b18f21d5f182fbc7f69"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "35b746477f3c7c5ab5dcdcae9e678a34b74ebfec5641a9e8ff610a7e8fcf212b",
+      "source_sha256": "9122f191fb2a733067310fb6166243aaefd989148c6ab4a9d935b1f70ce93f1e"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "04f6355640e4bc2fbaa6e36b8a3c504c86a9b6ab02a6242219c4df99b7bcfd1c",
+      "source_sha256": "c2f0ada6708ef7d6b6e54b50a83241757b4489c732d79235ce48bd8ccca4c184"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "016494b26de2be5b2641569107f84b0072267e7309b154e6751e88500b833cc7",
+      "source_sha256": "f7e6530d03a9d5a5fa6afcea8705ebbbfa89de5560392b8d5e62168010de914e"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "a213573500c053b58501b01c7b86cf062d3f3dcadf9f3a636bb96e71fb222fab",
+      "source_sha256": "4f969dcbe9d2f837b6da9bc1035d137d6f288634f91a758e09d041b763fdba2a",
+      "target": "plugins/institutional-skills/skills/investment-management/scripts/strategy_router.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "investment-management",
+      "source_id": "55b32abc840c2277580467089a55397620172f65d1b70fd2c85231d7e562830a",
+      "source_sha256": "fb6d399bbf1ecfc3914857e0b9f35ec5174de8171080fe97af79db49f75e8bce",
+      "target": "plugins/institutional-skills/skills/investment-management/scripts/validate_crypto_venue_packet.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "661a76f9060c9cec27598b1d2683e81afcb73855a43d456a08b75879ca76266d",
+      "source_sha256": "835dc41d7faeb443736a1c1169683d591bb1ee1152bb7dc0cb0231cb05828f93"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "investment-management",
+      "source_id": "c8dd5e1bb46fe2eca7fcec7791720d7a9a8d4aa87b0c1ca9b56b5e1cb363cc43",
+      "source_sha256": "8e31f7128b02be34b5d432490eb32b1ac7d4e6289a954a356c2b2cdf993eece2"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "111c49f47aa779ca7c55fb64cccec313b834e024089e44e9af9a56dd5957c870",
+      "source_sha256": "70dbccac2f380868c7a09b2753ff50132d5aecc174bb83db0c518e9f4d3f8080",
+      "target": "plugins/institutional-skills/skills/universal-banker/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "ee513a5b9b30631232baca0e464b8ee33c7ba43e8af1d13971ff36e8fc66364d",
+      "source_sha256": "84bc8f822a8ea2171008f514e644679c083071ad912af23b5b9ed4ace98d3fc3",
+      "target": "plugins/institutional-skills/skills/universal-banker/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "universal-banker",
+      "source_id": "57e1531367c521d72d4be2b55f354c44a1106b929a49cf1a858e829022a69fab",
+      "source_sha256": "58b93d8b42c60f1d8745c8461fdbd25cd7ddbcd84fc8374c813ff9b43a88707c"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "452fff5ac2c6dd007799af2d4928cfcaf30f1e18f60d72225094c3f7bbd2b310",
+      "source_sha256": "8f90b826eb3380f9369cbee78059d21da390928f6b8d78efa1f68de2369b4d3f",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/asset-class-atlas.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "13f69bca08a801587dab63de89456e843b8521bcd69b82bf0799d5f154d2f9b2",
+      "source_sha256": "0063087fe6188405abf4560b5f37d43b82eacb3cd98d4d6119b6ae53089c9bb9",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/asset-equipment-finance-leasing.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "a111616dabdfe3bb2b24fa4cbd641689ef64b2593642a0d46db2a0cdcead116a",
+      "source_sha256": "2bae448193e069fa747069cc69d9aa28324635480a3bb17fd85a3f929e3567a4",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/asset-management-portfolio-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "e1c338c8a9143ea80d6874db62e120eceb5a6df00b8d22b3c8325a5285a6cd8e",
+      "source_sha256": "ebe66fbea2ce9275f57bfdf9d6a7e117d3944c731f0673ccd6809e224ebf9540",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/banker-xls-ppt-deliverable-standard.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "b02ea25bef685faaa2f0a7eb7ad2d3674b19f9f61f65616d500cec4729986c24",
+      "source_sha256": "6a2169f0808409f4e032add8eaee9090cd98b470c33764cdade38b4532b3851f",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/capital-markets-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "4392390bc9fcce4ef02fe85b5a4d4b204702f076e1ceb47560e212521e5dbba3",
+      "source_sha256": "4a62a35b16351ca50eec80b2005da43c95ac53b2ee4c3af93ee0034cb301f3c0",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/commercial-credit-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "a8994abb86e8927c53a5355cfc1f108b4b135870c0b97f870f9ceb628f5f3c1b",
+      "source_sha256": "9cfd22dcbe33e09d2933a8d9efaeb9d9bcc2612015124f992774c44b62c461a9",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/financial-services-ecosystem-map.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "0435e5e6072565b87ee787824f69f392840076d33bd661ba7b3091a67c43e27c",
+      "source_sha256": "fc87c8ebd47c6e3d4b394fd2ef6fe685c912a27ec861bc794c1606fa1130b079",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/formulas-metrics-compendium.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "9f678784edfa14ac954ddbe2c8ae39088d9d45415353f32dd73366ae438b52cc",
+      "source_sha256": "46cf1d0462507acf97219713fbfe9c178cdb0c9e4861aea9a700dfe44cc312af",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/industry-vertical-lenses.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "03353ab5e3ab504d7b8b25fbfa1522f10ddad5ac8f3134ba9628f460853cc5d4",
+      "source_sha256": "68a336e5cea0e90ac305c265844db704049f7409dbdad1920703522811993f26",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/insurance-risk-transfer-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "b92dce83f40ad438069f5841777315746d3ce3889c9881d2d0ffe4b5ddb9a4f7",
+      "source_sha256": "c14512ab2c587e278046da9702f0d35c6f4df21e67578ff03c69047f987eb4a8",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/ma-advisory-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "30e5e25d8724d167ac14f61f08c7954c51b97f0296c3f842f091bcd4a9ee33d3",
+      "source_sha256": "4e30dbbfc7cbb5d5874d27538bddd8baf44331c6f05aee0801970adaedc1017b",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/market-making-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "b5b67c12fe4132b18fbba3b06f713d14fee184c1d77bedd1ccedd7dc89c566b0",
+      "source_sha256": "1b23f72ecefe540a6a38746d6370397abe2a6d5ab9cf65996d466e58179d0617",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/microfinance-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "0b042d7b40c8995100f7e99b1d210a115ab49f39b1586a017444c45ccf5bd6ed",
+      "source_sha256": "e8eaebfc78b1b3fb0353cb4e1bfcec7712a4edfc013795997e331031aca7aa64",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/mortgage-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "923b90125d6474e977ec15d9e26648cf4e173a379e499382109c1b7fb7e6bf97",
+      "source_sha256": "59cc27d37f8b06df233e8f6733718b1731adfc7f31eae6f6162c35387aae3285",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/municipal-finance-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "dc08e1996e5d3551efcee31be0e6ea0476c4eed47b1c5d5851bb817487e1db26",
+      "source_sha256": "055488a2131ab722f03f283714f23e48c2efff0e62ce8157fc65956b774c1326",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/owned-research-lifecycle.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "b986e31b83009d3416fa018966675c3acd9eb0bdf30499c4f4ac711c8f82cd86",
+      "source_sha256": "a9499300fbb835eda2f3ce655ded6241d63a063bea073e2549312c2e266acd9e",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/plugin-support-map.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "c36794b4edf46c85d480b6b9e2fd187560066535ea38f87e9c83a20557fa2d12",
+      "source_sha256": "f264cdfd6c1a5c69ee4504cd8005df0e942220f01daebbdc537f49d40863c1cd",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/private-banking-specialty-lending.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "c1432717f174059c15fb38745425d7d55742b376d6361407f9c338ea7fcbb284",
+      "source_sha256": "0c6280d42f0dbef8475ffcd208bc4737e4d1d34cc358b3827b6e718e821d7808",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/private-capital-playbook.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "a5f9b0985769f3b819afcc23149d899a70c727b345ff03cf9858a77e939aa888",
+      "source_sha256": "f7d65951ae910f9e406a84c12c10dcc617dd0f3dd2a20e30cd5f2b5ce35a0905",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/securitization-syndication-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "786ba00c232199179bbe25a1e05f8a79b2840850d244cd87e828d775ac334ed8",
+      "source_sha256": "bbed30ce2293175175382a4261940a8c34e422c28dad2eb702ca87b01e220f54",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/subagent-orchestration.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "d8eba796527933d6b1f578ffc5014e7a5a5ccbcfb7b2a362271255508f4da6a7",
+      "source_sha256": "61741433f9b45493d2c090108b933572931bc7d817bc81da59eb36ddf2faef9b",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/treasury-payments-alm-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "3dc79f33f14eda1af89aa75502f00dbe5a92f4d7538d512be124bbe07f6dba23",
+      "source_sha256": "ad2c18cbed4846b8863f953822f4b1a13fc0ab2faa2fc00198c88689cad4dcf3",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/underwriting-core.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "cb5e06ce5afa9ba60418090faf968b72b5595a337629e1735b38e89aeea6436a",
+      "source_sha256": "8e2f61dd7edd2b14a4776330dd3de62a571b37c3ac780bb9af62b5c7d40b4c65",
+      "target": "plugins/institutional-skills/skills/universal-banker/references/vertical-matrix.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "universal-banker",
+      "source_id": "2a5115e3f280948352df6cb630ec74e580a1253e50fab50b50998ba2185138a6",
+      "source_sha256": "60cbe1ab9ada6b9471da08e0278113f68ebf4d474413fbb9ff24fbd75da2c4b7"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "universal-banker",
+      "source_id": "439290c364c579d18cc34cf40e95d0f161373bda8db1b8b8f42c264d73964a41",
+      "source_sha256": "aae7602f143c54bcedba0e14b7939e5e794a2ad16424e4edf6d68a3cea0468ca"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "universal-banker",
+      "source_id": "a1872fcc81548b7798f5299193fb3215758b5dd5a6e7f4418d66623d1ebf9230",
+      "source_sha256": "4c12ca4f9e6fac8d9630025790a89854ce58eaadb09e6f5e95c2910e77c672b2"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "universal-banker",
+      "source_id": "093e13a18cc2710dfaeaf9908521a0e0ee13f0492ea6059be1889887b688cc5e",
+      "source_sha256": "00d2dccea46fa351ecfe5d255f27656102599e42316be571f3fccc3e083379b7"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "universal-banker",
+      "source_id": "1a03a191972260abc0da52876614a7281fdca24ba5a32e8afbfa0210623fdcf5",
+      "source_sha256": "0bd7712a22bc874c8b028c88451b611e7c66fecab3e05ba8bd81ab25bb78e0a2",
+      "target": "plugins/institutional-skills/skills/universal-banker/scripts/vertical_router.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "universal-banker",
+      "source_id": "6a015bd84fb1347555ae09c7ba64ec23d81b26a70ee7f056b008fd8846421c7a",
+      "source_sha256": "69cd43708fc88c289507e450d5761af0383aedf612891ecc95df939851b356ad"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "universal-banker",
+      "source_id": "39bc0eefd5e6cd88bffa0d7285cd7a64cbf722e70c46b1309d656be732db4a11",
+      "source_sha256": "092acaffbcc2eeca3b8b87c5cd0a81bf232ea9f92885fba58f5b637b150404d3"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "global-macro-theme-picker",
+      "source_id": "288cf8ea21163e5fa97c5cb22e4751ebef4b8b28a4030f0cefd91e3d1ee8ae0d",
+      "source_sha256": "76b2ff380090382cb6be4acf79af2e807eb3f1bd39cffee9d04dfd3bb1688dce",
+      "target": "plugins/institutional-skills/skills/global-macro-theme-picker/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "global-macro-theme-picker",
+      "source_id": "9fd388f4e252f967f7b5fe35ee0d84125058af753ce639a403d023f168480870",
+      "source_sha256": "60934b69707249e7568630fd734e2bbc4d8694343adccdd0a91b0d2331a8b70b",
+      "target": "plugins/institutional-skills/skills/global-macro-theme-picker/examples/example_paper_book_packet.json",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "global-macro-theme-picker",
+      "source_id": "d5c674e92bf471f8a9684301166715215896e894ca9f932914a50fb2c9df9f3f",
+      "source_sha256": "2a2dc64314b5d0ccc338f001b700adbd6abf565efd889a3fca1614632843e2b2",
+      "target": "plugins/institutional-skills/skills/global-macro-theme-picker/examples/example_theme_packet.json",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "global-macro-theme-picker",
+      "source_id": "2af3709799e49370ae7feb748bf306b861c2defb073f16d485e40606cd7daa43",
+      "source_sha256": "af20be1ac00e1ac032150c3bf5840499c6eebb6d30cf5c2d147fd65cf3c1b099",
+      "target": "plugins/institutional-skills/skills/global-macro-theme-picker/references/authoritative-global-macro-agent-spec.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "global-macro-theme-picker",
+      "source_id": "4920360a2626e781398373a20724b2c8da846f1867df770cca47373fbae10fc9",
+      "source_sha256": "4e04a5a7fb2a0bc254bebb438d68c7ba1ce4b9cba773f131bb43d2e3759fb253",
+      "target": "plugins/institutional-skills/skills/global-macro-theme-picker/references/global-macro-theme-framework.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "global-macro-theme-picker",
+      "source_id": "aadba601dc4fc835263016e1f851267e35d252157fdacee19fc3f01226623ca1",
+      "source_sha256": "88aa618c67e59076b3443a604bd18f55b46d13428b1e0cbe6438d5a553771ef4",
+      "target": "plugins/institutional-skills/skills/global-macro-theme-picker/scripts/validate_theme_packet.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "global-macro-theme-picker",
+      "source_id": "726f9beeba0a6024b7aae7d4eb9dec7a0683457fa7e6e9790a4caf5c6fca4a69",
+      "source_sha256": "4d2b2c11df6204d4c247f6ffc05edfa491ef07eda170d3759c20d75b28727a95"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "13650aa1a03ae065177eb397627bcdfa95a418ea2d89a2735b861feb2e8f99b3",
+      "source_sha256": "3b553c8fe390c44d31dd39f6a7da5c0a540d2e16406d71472d6824dd3ed1b6c4",
+      "target": "plugins/institutional-skills/skills/technical-analysis/README.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "c0fd6ff47d8ffbb66a8408cd37fe4a26e55a4ca5fc2d61c6b9a650bb8ae5545f",
+      "source_sha256": "ccecf27437c5a3987f26e62edc95553eebdacb9a8cc170ec47ca2df1fbc963dc",
+      "target": "plugins/institutional-skills/skills/technical-analysis/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "6e9129c71bee8fce115e283bdf44fd7ad21246ef7ed37837e7c6b68dde5a64b5",
+      "source_sha256": "7ec339a101937359484bda0b223a6262f9f5a95f8232f18b3c864be295d6c016",
+      "target": "plugins/institutional-skills/skills/technical-analysis/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "69855cccdf52c717d83fc23df99682a328d4a3a72053f22c3b1459e2df2a1ba5",
+      "source_sha256": "6c2300d62f65715951bb6c70e9722fe501c9904d97c7f1469ef4194729eb1687",
+      "target": "plugins/institutional-skills/skills/technical-analysis/examples/technical_analysis_packet.json",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "504e81095febc425d155ae0ed440567e1800dd30f3e2f4d0e7f4b682e3a8bcf0",
+      "source_sha256": "d2deb572c1eafba02cc58ae4c463df2ab4a18fc280a2cbb3446787ff77cde3cc",
+      "target": "plugins/institutional-skills/skills/technical-analysis/references/agent-and-replay-contract.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "4cc252a6502afba2fea8493e67c1c82f5c56378a69647790d84e081dc1fcc21c",
+      "source_sha256": "0add1dd789171aed509dc59515c1e2a143bc4716a281bbfeaff92a31e99b282f",
+      "target": "plugins/institutional-skills/skills/technical-analysis/references/body-of-knowledge.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "1e7a84ad4f1465883a4a12ca838101a76f075cf304e5f20d3e2cb2d7b46a498f",
+      "source_sha256": "0d63a8b85d7f65e70bb6a9ce0342c4737a8abd81520d4760376144030188da9a",
+      "target": "plugins/institutional-skills/skills/technical-analysis/references/evidence-and-walk-forward.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "e4c762bec23be296437eb23689a73ff2d11a9a99e7f8429a36eb62b351108412",
+      "source_sha256": "757d3fc3fb79eef526df097fdd56a60a90bb096d01376e2731d8d503a511743d",
+      "target": "plugins/institutional-skills/skills/technical-analysis/references/pattern-and-indicator-catalog.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "technical-analysis",
+      "replacement": "recipient_resource_contract",
+      "source_id": "1ea5d32f87fa230bc0c8d658000d215731883f9ca89fcca98be788423575edde",
+      "source_sha256": "822d0a4a137016fb11fd193c3508e9b5a20cf0ec9edc69bb107d556d3295df26",
+      "target": "plugins/institutional-skills/skills/technical-analysis/references/source-map.md"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "technical-analysis",
+      "replacement": "recipient_resource_contract",
+      "source_id": "8b7821c2cc54b68a3ed2b7207e5da85fe5aa81abd8aa07bc42910a602f607d01",
+      "source_sha256": "db3d98c8d082561d306e2eacaf2673ef9c52f09c90d906f52aef5fb952c94086",
+      "target": "plugins/institutional-skills/skills/technical-analysis/references/ta-vol-reflexivity-study.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "9f1dd360bd45bbf6e0cb6c584481d876d1123f8e22100e4ee522a522f2fb33be",
+      "source_sha256": "aa72e0e9950d5c2c788b96cd467b150751d4ddde98a20150ea50856d019a7cab",
+      "target": "plugins/institutional-skills/skills/technical-analysis/scripts/validate_analysis_packet.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "technical-analysis",
+      "source_id": "646b190add652f31de2a1384094a2e56f729f94eae3f779d36ae1ba637e0c263",
+      "source_sha256": "92c1d94e92af7379afdbf1350cc84f6b0ddfbec9bc518b91741c24c1f40786d8",
+      "target": "plugins/institutional-skills/skills/technical-analysis/scripts/validate_causality_contract.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "technical-analysis",
+      "source_id": "becf4f8857305c48b5035fd11165b51262cf1be55b93b90afc92dc8ff90e1368",
+      "source_sha256": "436b7d0d18d92b93cc8051673855045da83413df5f4c7c1e625c91206b15ff64"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "technical-analysis",
+      "source_id": "1cc6e06c076bf7404e0f3b2b5bf9b958999b25181acd6f5fcba67c7d31c77ea4",
+      "source_sha256": "dcc71ab50163b0ee3ddf7dcba3329f4d148f96af8e03a3c6e9db09f5bee49350"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "89a8c80f834370163e31cb9b0798548929e02b98304831f389b093db2d2268cd",
+      "source_sha256": "3b91a9329157b9a820f19e110b33c229eeb470d91fac681ecf5780d51cd770bb",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "ee2da377ba4e330402623209e8794a3cb82dab58c0a39c936e0df1dfe421d566",
+      "source_sha256": "20a22fb1e84e001ee62429149b677b6824a60a74ad2aaa417ce8413510a61aea",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "32f2d9582c444b3594bbe6fe6bd4719ef376b529398d218bb867a165dc48b866",
+      "source_sha256": "35e9aceb616b077f2864747cdcfb102158bb53e44352d349d3b0e5d1931015b2",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/references/experiment-design.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "6fd4ea62321d3d043a0076d146fc07a465e45f1d96817b9877ccc1491d1b0908",
+      "source_sha256": "6949990c4a414740e67f878b93b239cdbc8eda4a0d190c5c496e731d913db851",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/references/llm-agent-evals.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "a85fb425d7150c9c840998e1a45282e79a2a9a03c799cb9a53ff9e302766ae22",
+      "source_sha256": "e61c2b8415bb3881d944820cf73ee7dd8d9d95f48e46a1fcaa3df8b9c7424b51",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/references/llm-build-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "3b8b95af18742c9e9f75080e2f6cbaed3c5f3365c03f4eb29b18959333543399",
+      "source_sha256": "a7836695895541a4eaa0cb79ed6fe1daff03475487d3d4d6da991b90941cd2ad",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/references/model-risk-governance.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "7eb97b9f231679b4c6a143844a3ea8321ae4c1efebc3e6e67d3851c952efb258",
+      "source_sha256": "6d14e72255d5a5f05f3402d36220f17feb832721725e318c5d1f8754a0962599",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/references/research-translation.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "49894793bccc5ce871df40186c19ada5abc2b0fc1f157e0e68061d5ab66d00a2",
+      "source_sha256": "50c396f12f2f4a9267d6b5a8c550be494f8a3b272181f3321bc3020b35baa6f5",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/references/rl-simulation.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "ai-ml-research-lab",
+      "replacement": "recipient_resource_contract",
+      "source_id": "f5dc20065e3bd50e7c3c1fcaf747a724a9d751e384907b54e57fa941a9105657",
+      "source_sha256": "3e28466d7fb2fc4972d04c20ae0bcedbfcb981dc7b60c0189dc4bc11af7cf262",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/references/source-map.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "b0c2aba5ec2534a756cfe497e1f2deaf9dc4fc201282c82a24eaa7b522c3475c",
+      "source_sha256": "4f3b31fbd42cf9a6c234b78cc95ac8ef2bc041302b5f3e22c9f6a485a87c9348",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/references/time-series-feature-label-artifact-contract.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "0ca21b7d5e430209dcebb376f4369f63daf8b36d5f0001ea9d308fafd7d474d6",
+      "source_sha256": "d83b720dcc5edcd6cc3a2d3bca44055c13c9c218fc8e1d90f1675112677f04b6",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/scripts/ai_ml_router.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "fb72449a4d77f1e86e426beb8f745badb85e4ebd25e48e270192ae59697f8746",
+      "source_sha256": "abed7687a261317c0d49a2bef29baa44a472e9fb4d544cf52e8e3b0dba4162fb",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/scripts/experiment_gate.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ai-ml-research-lab",
+      "source_id": "471355b3896715f065751989fdcb3686bf97c782cb44bc6a8d720e0d839279f1",
+      "source_sha256": "829fd30df7f933b4ca486b2ed99a8866f593ef15da4f10228d9e11477dc33ec4",
+      "target": "plugins/institutional-skills/skills/ai-ml-research-lab/scripts/validate_time_series_contract.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "ai-ml-research-lab",
+      "source_id": "71200d12e7ddf5a0e2f431d3c9269eaa3cbbb1ad9f0b00350941492c36fcf5f6",
+      "source_sha256": "443bf0ea11be4c4f3aacad03a3c8ed9ccd6de320daa9531897bc62df3d592e25"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "f75f9eab11fa7ab9772dfe1404ae6f30fb1090d0fe076f8aa17ea584bb01d9f7",
+      "source_sha256": "2e86ee71d7ab97a910da8232dd7fb0e5045d50aef1820c0a6d03d0cf6b69a32e",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "12943991bbd913a3eed7648617afcdd1c72ca32f2baf52751d25456326c3d6d9",
+      "source_sha256": "953620a9fe4535e8082435ab3449f9c04181031803d57dfca6d090464964810c",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/docs/DEPRECATED_GROWTH_SKILLS.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "ab8d64097ba2b3c787ab5b1f0936d37fe0407dde8ace56fc85b36f3beb481459",
+      "source_sha256": "2f50d0c3f693328dcb9dea39aa24436ef268a2c658bed0a22015ea5d7e9465ad",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_AGENT_HANDOFFS.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "c9b6179c8e60917cfc202c947d248147617ccb0ce6ebbf57f4af4344fe7a0d21",
+      "source_sha256": "c7ddfd6c9f283094e5ed82d820fed3f05bcf3d77a1abeb1f3f3bcde6b3779bba",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_ARCHITECTURE.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "a4eff7bc7506ef3e1da3f78c34fec0dd0e9f19d33ff74651e4a76db3986ff225",
+      "source_sha256": "d4ab81e7a0474ddd2088fdc8d9dcec8c93695cafa1642209b0636503153603e5",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_METRICS_FRAMEWORK.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "993dfe674969a352ed2eca156726045e11841f916af90d544f423d1fafbdc1f7",
+      "source_sha256": "ab513656b98b30a3143122c2bc0a899815d8cd297dd2737b6ea7631c75f77da1",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_SKILL_CONSOLIDATION_REPORT.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "growth-operating-system",
+      "source_id": "e7d06d2ce9d77299d4a063d00cde2ff2342f7ef426d245c3268a269e9e7e1b43",
+      "source_sha256": "1ca3bc162e5b500bbda9ee3bba75e034796071803d491315736dc361e4865ed8"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "growth-operating-system",
+      "replacement": "recipient_resource_contract",
+      "source_id": "be60a97d9b79b7da9abec469c249861129ae09d19a134033467df24b35f9dae5",
+      "source_sha256": "03bc931c12758e3bbd99d3eb8c8b5a8d3d5ff3011c46484fd155329cc4e62536",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_SYSTEM_AUDIT.generated.md"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "growth-operating-system",
+      "replacement": "recipient_resource_contract",
+      "source_id": "97e940fd3fe26e945ef3183087c30f8ef96d146be284bbaf0fea84028af11214",
+      "source_sha256": "eea278808438a4515b002c928f0509660dea1218b0c8a9a484988eca9de97828",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/docs/GROWTH_SYSTEM_AUDIT.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "6b19efea904869af83f0ffec90dcbc88761f85d1820317ee8d85d1d52a0bc8bf",
+      "source_sha256": "a50a8e8c1dc0ca5f969135845a8483f0af40f8dff178fb0cf177de2171961eef",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/references/plugin-support-map.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "34ee88fa353d5bb1ea4bd3d37d8771810800fae296dcd4ea30fc6b646f7cd9d4",
+      "source_sha256": "d2e622ef969ac2f4d3e6234a0ba6f5f58717048906f1b508c09cd72519b08c42",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/references/relationship-workforce.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "growth-operating-system",
+      "source_id": "479d82110f71e3d292b2b2efea52e9be9bc0506ca682ca71ae6e2630c9b87e6c",
+      "source_sha256": "ed926966b1e9779661dbb849f57ac88e0905c1b844912ede27a730d0fa63eb20"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "88f8698b1b8d4973b546f7b6198b1f34089213fa02a2e4d9871fa37d5127603d",
+      "source_sha256": "08d5400187c233bca8f5c9b1e99038142bad692e05f487f4fc6630210b149ba4",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/scripts/growth_skill_router.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "growth-operating-system",
+      "source_id": "4601d29cf8006f923be108e2b10bed8a9c83d707262ed0a4ff3fb6942180f43e",
+      "source_sha256": "48a0e52df572cbbdbd6e47ab09ca9ae7beb53a13057416e378eca79ad3513bdc",
+      "target": "plugins/institutional-skills/skills/growth-operating-system/scripts/validate_relationship_handoff.py",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "growth-operating-system",
+      "source_id": "fac117aca9889eaa395224d2221f296afeb6cb1d46bceb039bc9c79122843dd3",
+      "source_sha256": "6b8f39e3f718260a96668e2cf517d42ca684fc7bced53f7b1694b6a07b007b87"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "growth-operating-system",
+      "source_id": "3add081827be3a632f05622d2afbffe32596ddb9aed85d0896033304947c2f3d",
+      "source_sha256": "280a0d671a9da8de8b1ce74c0765e22c9e85e20198a24793f8101472ce9e73f4"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "eb023645918723bb654db65911bc1a346c43512e1cd0f54c90be64d606b5d35e",
+      "source_sha256": "58b0a184f1d141ba6d7eda1f2599522ba31f1f1713dd3d51d8f5c275e53a81b2",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "0d01efb63f76816a5e01d27f85eb47a0d13106690a06ed63d677cf741a098286",
+      "source_sha256": "fbb9cb0a35637057ee6eb66b323f35340845cf50e9a56b0fe89e7d50aac74e83",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/references/argument-and-evidence-control.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "1bfa9101a65b6cc3754b0833996008f658e14b3bd3a3bc0eeab7ae029bf8b7c1",
+      "source_sha256": "ba202a3d82c9f5c0405ee97abb28294b663040d1095c7996712a0641f0c24139",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/references/high-hit-rate-marketing-prose.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "ded94e3912657c369ca5e78ea75a7a9b6815c053751ed2ae393f17a2c39bf002",
+      "source_sha256": "b7e70ba80612009b8489c8a9897dd02987d3bcaa0b426e983ad9563bb117e643",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/references/humanizer-patterns-2026-06-15.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "ethical-supersuader",
+      "replacement": "recipient_resource_contract",
+      "source_id": "129c94574f1658515f0004dfdf2823f21e071d956d8624cd827c416632497b5c",
+      "source_sha256": "b0c98a3686f9112b1922701f8c890b5251ff7f55472cd0f43f79e596507ec25d",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/references/recipient-voice-model.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "06c8c6fc08220814056a19a67b185ab67175dab9a6730b9e784a193cb1de5cb2",
+      "source_sha256": "147b02f5314f57ea80feb952f780ce50d90d627b6eefccd26bc62fca444babe1",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/references/prose-engine-evergreen.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "e59053c20775849a973cfec464ef4f073676f4556027d72f967932eb7dd6c4ef",
+      "source_sha256": "6ff19a4ce0dd0de2053b3dda62906773133a9c47d38b467eff0e1536e8a6c817",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/references/prose-research-notes.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "8d575f6ebf0c3309b08a01b06c0b7c24fe9d7db3eff477ea4ee7d922040472ee",
+      "source_sha256": "5f5f3a2ae4781425ab975168760d662a08eaaecfe835793013df2d2d7b2d7ffb",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/references/prose-test-cases.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "0386b4c1db47c20604d96f7f1f73bdd28185aabd0e8a5022f1d00d1ddeaeaed3",
+      "source_sha256": "52c96e02a437ac098c34d1d615224cb4454d4c7f4be08c55523ac03b34d8b1a5",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/rubric.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "private_benchmark_development_helper_not_redistributed",
+      "license": "not_redistributed",
+      "package": "ethical-supersuader",
+      "source_id": "19f900d094df20069b07eea786dbe437230b1491805c7e36481792447c410fad",
+      "source_sha256": "44751a8a001f5302dcb0e262d173733ff6f13b474db921a02bf062463b9ce9d2"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "c24305f912cd766becfc10a43868f408ea598b2b30a1437df6e9ca21f321a995",
+      "source_sha256": "d9090571f434a2ed80a810462e3a575546adc201c6cbdb609e1dca7d4c04630f",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/scripts/prose_linter.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "d1add749cd16831eeb0c06b175255a4fc041220e1759cd76d644dd557087aa3d",
+      "source_sha256": "a2e450363d7ca80905705ea928216e1f3db6cab0e37df4cbfa85e1468d9602ff",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/templates/deal-advocacy-email.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "915b71a23f089681d46127892e4e855986f2cf19c39ead926e4fdadd1135b707",
+      "source_sha256": "90046a9c9f9bb327575420f7891ca2452292c7620eb28a1e7de82ae3803f866e",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/templates/follow-up.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "d4088bb861157134100e7efd9b91d8a84885461020d3d80ee6156c3a87740f48",
+      "source_sha256": "2b71f1ada66d0266f54974d84b77ec8a87b1bcaa31eae24dbc56552d527733fc",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/templates/forwardable-blurb.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "4287dbb9edf1375d5b9f5e693b7a29aadd54de54431b80939a5ae91d98c44869",
+      "source_sha256": "1faf2b2fa9e08757f7794efa77c1c52762e3b68d750c362313b39af34b01725f",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/templates/investor-intro.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "ethical-supersuader",
+      "source_id": "d4d976ffe35597fa24a15fd04907fa698db03d0caa651e80ef83c005963da1cd",
+      "source_sha256": "b19ff61ff5b55b423bf6dd0ea8fb31a1cd543f1ebe87fab063aef645c80a44dc",
+      "target": "plugins/institutional-skills/skills/ethical-supersuader/templates/objection-reply.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "ethical-supersuader",
+      "source_id": "d332e44d2b7ae9378baa937255fb4511811a4d22c6be45b1bbaa475b151dd6ca",
+      "source_sha256": "df328eaf11d930dd2f6bfdb5eef9946c0cc55faf57b69e697771396a4724adc2"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "ethical-supersuader",
+      "source_id": "2d47f1603c88f86e44dfaea740c9c2132f461548ec2f8c8bf336f70ca356ae7c",
+      "source_sha256": "f28770e65e95530a18b69650f5037dec5f16fc69dc949398e004d58bab1b1a45"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "ethical-supersuader",
+      "source_id": "068b1591523a04350dac51977c45f149364d365ca3a66954cd1097e4e87bf6a0",
+      "source_sha256": "e86fa8c98aaa5860a90486e4e1cef224bcd37180cd0a1dd28f833b25ff720d1c"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "ethical-supersuader",
+      "source_id": "9ed83ecab3b01f5a8fa4a3c8887d472c3d07c7760286f3ef9c04a1488e5f5b56",
+      "source_sha256": "9d4326f3244d88fab356bd095dd17b47a5bba4ad93e0a575ef9163036db65eb9"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "agent-ops-control-plane",
+      "source_id": "64033fcd8b5191c5ae73d1fa1b9f829924e9255adfe5b0aa596b417965026e32",
+      "source_sha256": "4474bd2f4c53692a5dfc4fba931dba1e809e7dcd96174a5ea42d7f96ea75a3ad",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "agent-ops-control-plane",
+      "replacement": "recipient_resource_contract",
+      "source_id": "b663208440e6ad6d2473b4d91c80b11e0723c82bdfcb3d6f06314aa5c0ee67da",
+      "source_sha256": "11aba1d70c9a8b1e5d1c53187e8c02703a761fe3f2b26ac656a559346d110ffd",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/codex-marketplace-intake-2026-07-16.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "agent-ops-control-plane",
+      "source_id": "afd13b91570016d7a1c684f8399ab45be814996bb63c482f95df070a4e6aa7c3",
+      "source_sha256": "05941a71b9f082d1f4dbacb17bad367b15a7828670329a93cd41c8cb1f515709",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/context-budget-and-retrieval.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "agent-ops-control-plane",
+      "source_id": "3421dc051ad2f80eb211cd79a0353efa2a2044026aedec57bcb7b1889a8b791a",
+      "source_sha256": "7e66e330162d860c668c19accfce5d66a08dd1bb6e5b776b5bfde163bf52658f",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/continuous-learning-and-memory.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "agent-ops-control-plane",
+      "source_id": "2a990bb0ea3f77133b40887eb8fe7b53e2e3402cc193d7406c2f5f0be414fdf9",
+      "source_sha256": "afbaa20149003d623ec07db33be0b48246e1b905494e42cc0f9477f820bebf42",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/evals-benchmarks-and-ledgers.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "agent-ops-control-plane",
+      "replacement": "recipient_resource_contract",
+      "source_id": "dccbdec842a31f499f9a31e2c03caa85886cc626d1739fb0a581fd29752f78ec",
+      "source_sha256": "8ec287f6e4954090f4f784aa34dc88a0825ffa9f6750ef674e38102f7797f0fb",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/external-repo-intake-2026-06-15.md"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "agent-ops-control-plane",
+      "replacement": "recipient_resource_contract",
+      "source_id": "005c7316ab4a32627799f679342c5defae04b10b199aaca62a8352a28f7ee613",
+      "source_sha256": "6cc189d5f130b13c2c079349acbf36e150f516abda5336cf85acf59fced728c1",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/external-skill-intake-2026-06-15.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "agent-ops-control-plane",
+      "source_id": "efe4ed811227198eee9fcfd58e0e1a5cfc58506b7c18d310a828f3e6d26b9493",
+      "source_sha256": "64bc822b6986b807bcd266c72dd2d86e1c45534dd6026b9b8e2441a4ccdffacb",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/quant-repository-capability-harvest.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "agent-ops-control-plane",
+      "source_id": "a587b09ef61f0a383eec1d64c2777e8b6e6e792947bfa21389656133f888da62",
+      "source_sha256": "fae6ce255499e07b4bdb7da9e1535bfd278874779ad95b81845bdb9476438005",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/review-swarms-and-work-packets.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "agent-ops-control-plane",
+      "source_id": "73f5a2d1c785cd5fb8595fc079104f34ae8bf40126addb81406dd1d2e98c0204",
+      "source_sha256": "dbfc1bff126ae6e542c85da45996d2350181e237ce624f1b90b9e77ec451a163",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/runtime-governance-and-cost.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "agent-ops-control-plane",
+      "replacement": "recipient_resource_contract",
+      "source_id": "5c51bbc1f8b2bf98f43a01d4c6fab5dbc55c2c6d82797a8b8a1da916119d042f",
+      "source_sha256": "96797e3c2d903ac3422ab1d975e4510fdafffe2069224e3f2413b8fe04e58e3b",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/references/source-map.md"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "agent-ops-control-plane",
+      "source_id": "053310ba3e0b28cdd8f45c409cf3dfe0fb6fb24cc3b1760b49f9e6223afd5e3b",
+      "source_sha256": "5cbf9153bb5af93160fe85a39d730f6cf57829aff62fa0f93ad4084d5f1d277d"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "agent-ops-control-plane",
+      "source_id": "4a7a17156068c57d830cbc52426b34508b774890e630f1206bfa4c6cf120b6cc",
+      "source_sha256": "a02a930915cf0dcc86bb604dd32b7039c25937bc9eb88681e2aa1b7bd1cda1a7",
+      "target": "plugins/institutional-skills/skills/agent-ops-control-plane/scripts/validate_quant_repository_harvest.py",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "agent-ops-control-plane",
+      "source_id": "1f706f58292da8196b49dcc5add8bff6fb7d9045fc7b3eebe97afcf2a244058a",
+      "source_sha256": "a357e705fa0b0d42c6af26c91b4be64a33d2cb29a0b9aa3a0bcce582b57621fe"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "4ee2e33bf61fb4ef9438f057a9e2dee5ba7dd21b5815c9dfbffbfefa3d858a7b",
+      "source_sha256": "014c8079901b93424928a34949d8be07dc7c9286aa860b7cc5ebda9080ce7464",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "visual-design-operating-system",
+      "source_id": "85f0298cfb486ff8ca254e47807b143a2dcdee89c2f4a1495466b5d05ab83033",
+      "source_sha256": "a47cf42e278276943720a5548b8f3ed42b6043f6b971a2865abda7e1d64efbbf"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "visual-design-operating-system",
+      "source_id": "1c5dd82da951d70173fa0f3577709b9933372e0b2a0dcae007a76561893273f5",
+      "source_sha256": "90906dd2a75ebb93d31cabbfb4701fcea9a08892c977df6634fb7b5bb561713b"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "07f51dcc0dada0f6a1d16d3059a948be3e555d5d3cdb7dac99082ac19a02fce9",
+      "source_sha256": "1894ff77fc95c71484e820fc50fc320b13b0785d2a078b64e179a49c5730b574",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/blender-figma-routing.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "e50ae9d23d33ed811862ce1c5314b254e56b18d27e021fb723a1a3f21a985db2",
+      "source_sha256": "b1e006f09c8950d88bc6d7bcc6b6d30f50c27fc337c64979e46f3beadab19268",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/cross-medium-design-brief.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "ba1c0ba3ccefbdb567241d34c51acdb5a88a960845366c0e6189af6feefb7428",
+      "source_sha256": "242f8be59b020e760b1909dcddf1370b5a61b1e33348304957b63d55f71afab4",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/design-frontend-execution.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "797a1ad1b0476af02317acf18987b02c672b7ce1f69e18ab2bfd9c9ee9ad4d4e",
+      "source_sha256": "faf7035eade8bf65c9f99a0959ca22e46b14bd733f42d3524d588a42568a365a",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/hyperframes-video-production.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "9f841449ae5420b0811a2f5bfd783f366acaa14f431d7280020d094af60fae09",
+      "source_sha256": "ce437c1de4b1ce6aca4ca3439267712b9f36fbb3fd5c88eff41fbc1864f073f6",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/interface-detail-and-reconstruction.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "89ee190400bad12121a119a00e224454f9d4d85b8a226294967cbd999a358008",
+      "source_sha256": "b08098d5a14a9974469f923edce5d00a554cbacd95043f359ed3cfddf6ff0f3a",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/medium-playbooks.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "06510dd7c8350630c2d7dee49fc8065af7358751a800ff1325c80f251d858502",
+      "source_sha256": "72e0e3ec53cba06e25da0fb0493334abc7a344765dda1abfa6827740473b4bdb",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/quality-gates.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "visual-design-operating-system",
+      "replacement": "recipient_resource_contract",
+      "source_id": "18e794ef15b4ca442da36df0b656070e24b2d7f454ca56ddad51b4cbb36b6b99",
+      "source_sha256": "f0e6058a45ee442b2d50c32f771e5bd1808f14cb049528d30afa941ef23e9585",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/source-map.md"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "visual-design-operating-system",
+      "replacement": "recipient_resource_contract",
+      "source_id": "1a1c83c87fbefeaacbc50428765ca6e52b22c3056a4a54cdf77030a088f4a54c",
+      "source_sha256": "f6af7261701440afb1a39d468c0109d39bf36b25c17844a32157c2b36b94a18e",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/references/recipient-document-system.md"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "visual-design-operating-system",
+      "source_id": "4d390c50050829faa95be33941a52879047a52f9df342fef27157b6b20ae71a5",
+      "source_sha256": "8744d80c41bafe7d283161af54e2fb7428b07fbba8ef9429c6bf531f27de5dbf"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "visual-design-operating-system",
+      "source_id": "386049189abcd7c9ccce2fff798c6246755ff396b4151e63fb0830e82854ef28",
+      "source_sha256": "6485c0e4c02be7843b25d5813d73e22b63a99bdd3572dc5ce3c1115a44cbbef3",
+      "target": "plugins/institutional-skills/skills/visual-design-operating-system/scripts/render_document_pdf.py",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "private_source_or_development_data_not_redistributed",
+      "license": "not_redistributed",
+      "package": "visual-design-operating-system",
+      "source_id": "6dea4552176994ec6f78a00ca6a2d9ebc48fc43b5da1c508778e0d9e66d7295d",
+      "source_sha256": "1c2cf2bb5d3b368d5645417b06df8cfca35a009ae557f72d1219488477fac94a"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "90c62d9417c221c51769bc7f6ac122735d3bf808c35b6f35c9957b96482a55a0",
+      "source_sha256": "dfbd32b8d24b3b2cb50c88df1a8c6e192f1cc06cab94d8611ef00ffa2a8614b3",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "ae5cd71a365b5ad59da372652b15f80bb93618623ae33ccd5d42056e72ad98fe",
+      "source_sha256": "997db0360eeee551dfa799cd5d7fa51fdb1130dc16a13d520a2b76fcebff176d",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "3b150049b67b7e0037c620a86b4c3dd8937690d3cea393dd1a9193ed8da06d9c",
+      "source_sha256": "a9f676ff11b172e6fac0173423a50d0ea7d6007b86ccfdaafa705c7cbc2870c2",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/commercial-contract-review-framework.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "6e134b9f5827ff3039126453309c837e7e96d7d932048cc0322ea054a05f908f",
+      "source_sha256": "8e1e07a6ae22c9f072bfdb6a3980f57e0c0975652570bc6704ec131d003a535b",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/corporate-counsel-competency-map.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "df7d4215c8c3b98bdf059ce223f7f9668248e0e038dc97ca2414ed8d0ff17fd9",
+      "source_sha256": "04cd4ae8a74ad7b43bb9d5314afd97c574121d1a9bc11949882b67f4d640ca1f",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/corporate-governance-and-authority.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "dfbc03bd6860185d9f167b154c13fe7aad64c5d076a762e282247174e26ea508",
+      "source_sha256": "925cb018c6412c4b7faa13c819d044945a0faf0e85ba7b1cdd73fe59ccfdaea8",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/disputes-investigations-playbook.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "441535441ba70b6cd4ec753c756e4b7c58f0540aa332c517fc6944486a3cfc4d",
+      "source_sha256": "14b732b92ba334ae4193cae32d252c4079b107635bd07d6f973dc560984c582b",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/employment-and-policy-governance.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "6f6c58cd1b5c72b0cfedd888230d4802313633c37f16b50103a5dc4cd7562685",
+      "source_sha256": "b2125d11ec4e0c50ffe7a5e32d642182231f652d1a5a9477539819e10055e5e3",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/legal-intake-and-risk-triage.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "273611aed54831b99622c8b26deaad22d93d7e031f9a53972b856ff5e50e1740",
+      "source_sha256": "8d6b6ff81d433091e83a282d901464d81f1cae266a209b03cb34f58bdca75999",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/legal-operations-and-documentation.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "3f932963d5863cbe8af6261f9d63b5cc3cd2d942c3b1514eacf43616377dcd50",
+      "source_sha256": "2c83cf6f42cd6fba9af72fe23fae0c9340ca238999899e32e5ed97561635faa1",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/regulatory-and-licensing-checkpoints.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "corporate-counsel",
+      "source_id": "28e0f174d7d8fd3654b2aa8c1c8b0c101e69fef71e69412b9b3deeff0fdb3505",
+      "source_sha256": "ef4005ab933f8915dcc4cdba62f9d413535ba914c0ad84d98875d58e30401336",
+      "target": "plugins/institutional-skills/skills/corporate-counsel/references/transaction-legal-workstreams.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "f0307d12209bcf7bde0984b3ca69f00ac8d4fd7d5731d5d6a1f31482202e4684",
+      "source_sha256": "dffd3b716752e529b2303bcd34487e55c8f264e006f68934736a6d4e8e5a7507",
+      "target": "plugins/institutional-skills/skills/tax-strategy/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "c80ab1422b326b824fd87251894c61b4b415e15a780a1546e8260e0a4eef8ce6",
+      "source_sha256": "a4c2510b00d7e1c5839fbe24eb1a8d038d29347a19cdf5d7df05a20cd0d7655d",
+      "target": "plugins/institutional-skills/skills/tax-strategy/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "ec71cc8b8f253afc765294bea0811de73894cbe5480372f5279ed12255e8e543",
+      "source_sha256": "0f94e8eab97a2b886c47453941079fbc847a921af23f9d05765588de28930df0",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/aba-training-placeholder.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "a457696e6b26d1d97a95fddd32e07b2c5294091264abd3f2c5ca034c0f5e4746",
+      "source_sha256": "ca2be7af75daa8887c965682ae363d0ff87bbda98431a5bb2802c40f415195e2",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/direct-tax-planning-framework.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "41078d47007bab5e6f5843580601df8327cde861a1c3448cc43fb216db4eb10e",
+      "source_sha256": "57f35e1c5a264ce649028bcb27d5db283f4209ab09a98e424bb534649207c06e",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/indirect-tax-and-nexus-framework.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "e10f8a0927293ec9dd4832ddd0b263e466adb933a7c4a68d34773f33170f9902",
+      "source_sha256": "580222e39d67240cfe603e33a6685e1485a00f974625a3584d82b5e6bf61704b",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/international-tax-coordination.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "recipient_binding_or_source_history_externalized",
+      "license": "not_redistributed",
+      "package": "tax-strategy",
+      "replacement": "recipient_resource_contract",
+      "source_id": "92d1b4a11c4da457669016a658ae1ba0a0e09a58a436e91c4f03af07af0ebbaf",
+      "source_sha256": "9dd284d0fbd85f5b9ef61ead237f1acaa718cdf29bdaed241574fb33397c56e2",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/tax-controversy-and-audit-response.md"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "be7622a2e92c0ebb5a0bb3fd240d273cabb8c09ae6cf986a662b4d9db5500f2e",
+      "source_sha256": "6dd902eec05556bb25cff9c60677e419ce166d9c44ffb2db9b90a0b775a43316",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/tax-data-controls-and-governance.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "1a9f0a0ffd30da85321017029420c31b3d7c0ef788f5a264938cbeddf4201e0e",
+      "source_sha256": "83a7f8334555f1aec8543aa3dcca46eacbd04db4826896a14fe70b6eb527b8f5",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/tax-formulas-and-metrics.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "536802e19e3ab1b9cc27a6d9299b4eb0055941d3fdcc3ec67117ff2133e8cee0",
+      "source_sha256": "b989c05e0d7cfa4e97b24fabc201893e16716defd7d9aae7b37370ed6faff3bf",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/tax-ops-lifecycle.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "tax-strategy",
+      "source_id": "d0eb639916e35e3e8425eb2d699b1513af4169f003f2fa89726e14c06d33f13e",
+      "source_sha256": "176aca35a3f85c074717af3afc73ec772a59f0a91f51afedd23e91ef47758cb1",
+      "target": "plugins/institutional-skills/skills/tax-strategy/references/transaction-tax-impact.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "b6923a0658c61f698248df52194d3ba2e0889784f4cab9656a1f9184b9132c24",
+      "source_sha256": "d0d664da6705e07054bd16ac8910dd59fb7ffd5b288079ff6cd191cb81b9c01a",
+      "target": "plugins/institutional-skills/skills/trust-officer/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "3baed41f961516c50123240ae42db89216efd3f7af20b9b64fc880511e3d7aae",
+      "source_sha256": "5b0b493b61b86c0ff98037813951783e19bd1611c04df6dfe4b393b4ec04fcbc",
+      "target": "plugins/institutional-skills/skills/trust-officer/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "86ee11c058399b3c3fdef21d6b690f8646607f0a9172f9704730b8048fb96cd7",
+      "source_sha256": "e4e8501ccea1c0d4f715737246551f142c0a1d8a83e41ad20dc7d4b08408170b",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/beneficiary-governance.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "1407e25a608052a37a010281d03809535313be9b48f30f320bb6d1dd16622132",
+      "source_sha256": "7007414f985b1aaaf3958b9894c87c70e6b7c7a9c86cba37ca579e2ea13b829a",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/ctfa-competency-map.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "223bd7376b8e080d94690376c3d505c4dd78575e4c03897210bf50b375edcdd0",
+      "source_sha256": "16a7abd773211528f006f4f0bc8b0dc275beed733a1ec95fb6bcae79025fd12f",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/distribution-decision-framework.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "1cd67dde405b31b772d7a8b1f89bf355f7ea3d0d9eecbbb77a3f8443fdc330ac",
+      "source_sha256": "cc8b729868bc71353fd311e34dfa1db193840ef598e7296719b57d59c2c855ab",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/fiduciary-principles.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "359f6b2c4cc44fbea0c6eaa8ad36cf8930f74cc70064ea2b2f61e489c76d0005",
+      "source_sha256": "ed1b2743af0d086f5e1d8c2122b0e9132558fc746486c51987f67c05357b5700",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/special-assets-governance.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "cabfb31cf01a0f82c6a0ff79a10ef97a04e285ceeae8fa7ae0c783cc245e011d",
+      "source_sha256": "059d6538a1c6403805be4260d53556b3ed93712bed32a6325f396e2068040b84",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/trust-administration-lifecycle.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "4c1d929125292098e02075e3b7d45d790a7de8ead5401764805804fcabb0e9dc",
+      "source_sha256": "8513880c977627de88b498ed6990b53c08a452dcf7cce3e11cffb837504a7cb9",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/trust-documentation-templates.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "20ae6ed23def249c33a42756fa2a65247e648a5b1783bdd1db414217d2c870f1",
+      "source_sha256": "7e0af2d2c8ae6e71405255a268c95d0e62dafe6a095435ea297481fcd778a505",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/trust-investment-oversight.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "8b85506d0aa951d44c0b800672d93bd306cd40f554e50c3ac876b363fa8249ed",
+      "source_sha256": "62c92214da226f714251800ae00ed0b2b47647d6b736828e101fd8004a941b18",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/trust-risk-controls.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "trust-officer",
+      "source_id": "dd0fb92bfa4cf1ebe194a4a8dd087188a3f3331455e9161a1a6f39a883f1bf9e",
+      "source_sha256": "cfb10d9e838e7fd6b16c901f88f3ffffc26b1ad411d6edc6ed4835b1262c27cc",
+      "target": "plugins/institutional-skills/skills/trust-officer/references/trust-tax-operations.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "9727e9cc5df4478662a3636036e2f5c65b6786c22b60cd081cea3ff756b07ef9",
+      "source_sha256": "7493c449166f4e7a048f1a0bf4a7bb452786dc26421e2a3393d2c902c14e9b52",
+      "target": "plugins/institutional-skills/skills/financial-planner/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "084a55b51c459ec3abaaa9f2dd8988362aa6cee8ced58950820113fab222a0b0",
+      "source_sha256": "9babf5a144a092f0ab0aabea23ec6e2abbf3197bb581f0fbfff0092b133c5acd",
+      "target": "plugins/institutional-skills/skills/financial-planner/agents/openai.yaml",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "52a32173c7aad8e52029c665d0c4db08b2c0d60d9ba8fcdb4d2eb7d648454fee",
+      "source_sha256": "6d09639321ba464838f580a2cc41bb9836e33a04bec549c7d214833b9925758f",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/behavioral-coaching-and-governance.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "d858ab6946db23d72c17a11c8b8ef05381aa931d56d7942d56eaa7d617e46f4b",
+      "source_sha256": "85405e44e1efcf3d7a4fe14bfffbf72f41782086fbec87641ed319c4f007fd4a",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/cash-flow-and-balance-sheet-planning.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "e9fa9724e682e8c6eabe122aeb6f818589416bec5358c29b67409207f1d9ea79",
+      "source_sha256": "820810dd89d966b6fe78f4fe5d6e5d3c4b63e6258506609819e8507966111ddb",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/cfp-competency-map.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "832d9692515f6ebf9b0fde7236bc362b0de968b9353f129516785f6a8bef214d",
+      "source_sha256": "fab33c9e692f2e9b02bd05c0340f55281ee63119dc309f8ddb9cb06c68ad0aca",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/client-discovery-framework.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "a5030dd93360554302d944b120281e111f43602b9e2323038ecf1829e85c950f",
+      "source_sha256": "3d7f24be0e357b0f166658df9796cefb86376850a7f988dc2214babdb0a922e6",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/debt-and-liquidity-planning.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "46cd846a01565bedd80f58f0a5e33f9af8123b3e2d1b7855c0318d9c6481852c",
+      "source_sha256": "c5acbf95d7e51d120a4966423cf211785455d4e6e6e7149bc8702c7a859125b8",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/estate-and-beneficiary-planning.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "45f440f32a47c65fa064abb0b9f653b151363483a6b4f88f38ac5801ff67c095",
+      "source_sha256": "1f491b9c23510e9845eae74d7cd92fb9c1f6ba6d6031bd605ddfcaa2958b0346",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/insurance-planning.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "8bbc7630bd7c8b21798f0cc62c417387da45bf9c0c93f06166d058c8f72ce9bc",
+      "source_sha256": "2c6eb592690c73c9dcba3dec722e8e11d40eccc9d61b5f45c022a17b33515f51",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/investment-planning.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "e7e5f93a0f57161280c664bd1e0936d0cbc5ac649fcaf09f8ac9ecdf1965be7a",
+      "source_sha256": "642ee3e86d8eacadf62ae8d9e3fd3b0ff52d3dd3f6df40f35927c51550399d30",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/plan-documentation-templates.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "89d032de91cce4b4d7aa987f86ceed27dc19fe28b6de9d0a52e91ff4b6584ba7",
+      "source_sha256": "81c4b512c0ee481fd561469e036c5f487a46fa11d90fbb3279a3a7134d2fbc93",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/planning-formulas-and-ratios.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "303da8799f6a0c9ffb2e6fa7e55829d5f6f78b4a4bb2353b1a81363e496f9a45",
+      "source_sha256": "9b6e025aadd8963ea68e06ef8673d48e1b7de15fb5a99cf9a652aa9e2460258d",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/retirement-planning.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "financial-planner",
+      "source_id": "2c3f3ae3035ee61ca218feb8f8dfa6443beb6f91fee52905d765ccf8745a310f",
+      "source_sha256": "164c3293cfe9bb18a91333eb518ac1f75a86a8e98ce14881750bfdc61ed96fab",
+      "target": "plugins/institutional-skills/skills/financial-planner/references/tax-planning-coordination.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "56face51ef25c563703f465faa2254d6e22a584320cc5b765da0106259459623",
+      "source_sha256": "b5fb28eecda9d76f4a156eb63eba3f1ace967fd90813bb08909f188f71bfb546",
+      "target": "plugins/institutional-skills/skills/atropos-command/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "58825d9cf649fec2bc72b1371f4ac2a10a23e29210cf595f694222d75dd39860",
+      "source_sha256": "c9b3cb125ff828e3baec8ca74f719e527f28f6c683b5a943e861860c15ff1ec3",
+      "target": "plugins/institutional-skills/skills/atropos-command/examples/software-release.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "e9f0a6cf5d43a869fc9658adeb5285a24bcad94c14ef2075d5f6e30f52c3ab2c",
+      "source_sha256": "3a1689a033ec4b142747df0fc1acae0c604c91f60584a62f5274e350f786712f",
+      "target": "plugins/institutional-skills/skills/atropos-command/references/agent-motivation-and-command.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "ff2b580207e72362eb55de3a9c3a0d5a9c73547f4d3ae0b9233853f9f6e3bd9e",
+      "source_sha256": "69fcd2a53983f6c06f49ce91e50d17b640782d8722c4df746a66786c33f9823e",
+      "target": "plugins/institutional-skills/skills/atropos-command/references/anti-bloat-and-context.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "5ec56f2b1d8e1c5d5c49e1d1219b7567b78f0b16e5a5a75cce5a6677ff1026ca",
+      "source_sha256": "6e735d22a3e525bd8563609c1ce10bb9503310f6517606f589f034fa04fa7bd5",
+      "target": "plugins/institutional-skills/skills/atropos-command/references/evidence-and-impossibility.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "fdaa40075f5df308bc4deaa28521b4184a0d4c717c6d1efdfbf21a8f082570fa",
+      "source_sha256": "5549b9f0767251ad3b72078f9df8e603ffe91f89392270fb9b6e0f438fb8b493",
+      "target": "plugins/institutional-skills/skills/atropos-command/references/leadership-canon.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "0212cbd3a851e1345efabe7f95122ded1c72905f1de12a7ac28b56ac3f0723e8",
+      "source_sha256": "a2a8bf30946108be0cbd7d1b6edb9b1a51d8f3339c1a06f77f577bf5599d6237",
+      "target": "plugins/institutional-skills/skills/atropos-command/references/orchestration-protocol.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "89aa1916a63009e6549939ee11571e2e354a91ba1571843e7b89de4b1f9cb628",
+      "source_sha256": "245c2f140718724168970435c8e228cc0dbc06b765daa05726987af2717aec44",
+      "target": "plugins/institutional-skills/skills/atropos-command/references/persona-and-command.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "c1e0d89eafa3b6a0dccfa5a9df9316e8958a764e70f61cabc9bb8b4cfe4657b5",
+      "source_sha256": "bb16a5dbf59bd424e70dbda4c7cc5d982f1b8339ac5333a69240515bbf6f4f34",
+      "target": "plugins/institutional-skills/skills/atropos-command/scripts/validate_skill.py",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "atropos-command",
+      "source_id": "f35b20c3dc91a98fb9d90439a77bb7c6b27c8c783dd21fe8c43c8b3205c421ab",
+      "source_sha256": "deef03aa3bfc9852195aae10cd475e4fee9987581a7d0080efbe6ef47c53e8da",
+      "target": "plugins/institutional-skills/skills/atropos-command/templates/mission-brief.md",
+      "transformation": "byte_preserved"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "security-bluebook-builder",
+      "source_id": "5538f4416d1f2972cd17e7582bfd7ed8ff3075787409ac1da8913523c049c649",
+      "source_sha256": "34ebc36a8ce014be6eef6c9ec6f1164b02983d375a566d89436b526871b2144b",
+      "target": "plugins/institutional-skills/skills/security-bluebook-builder/SKILL.md",
+      "transformation": "recipient_bindings"
+    },
+    {
+      "disposition": "generic_authored_source",
+      "license": "MIT_authorized_authored_core",
+      "package": "security-bluebook-builder",
+      "source_id": "874b07f7433348a10bb85181bc2df90ad7fdcc318fade8c1a62267ddaf703c7c",
+      "source_sha256": "4f721df08d01c7a6246feaac9e52d36b97ee14c067f45afc663c3ea01b4ee80f",
+      "target": "plugins/institutional-skills/skills/security-bluebook-builder/references/bluebook_template.md",
+      "transformation": "byte_preserved"
+    }
+  ],
+  "third_party_policy": "No vendor caches, raw papers, source corpora or unlicensed imports redistributed. Primary-source links remain citations, not bundled copyright permissions."
+}

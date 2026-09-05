@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Planner"
+  short_description: "Full-spectrum household and client financial planning"
+  default_prompt: "Use $financial-planner to build a complete goals-based plan with domain recommendations, action steps, and review triggers."

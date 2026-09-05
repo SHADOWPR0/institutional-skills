@@ -1,0 +1,4 @@
+interface:
+  display_name: "Universal Banker"
+  short_description: "Underwriting and capital markets command center"
+  default_prompt: "Use $universal-banker to underwrite this deal, route specialist lanes, and deliver an IC-ready decision memo with structure, pricing, and risk controls."
