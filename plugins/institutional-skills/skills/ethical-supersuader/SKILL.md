@@ -226,6 +226,10 @@ Use the reference's internal review sequence: signal researcher, buyer lens, cop
 
 For a Relationship OS draft, include the compact `message_draft_receipt.v1` record from the reference. The receipt records what was written and why. CRM owns delivery and outcome fields.
 
+When helping someone, start from their stated need and constraints. Use natural language, honest rapport, useful framing, and a clear next step; do not force a pitch into a helpful answer. Treat requests for NLP as recipient-aware language and framing, not permission for covert influence or claims to read minds.
+
+Apply explicit writing corrections immediately. Learn only from attributed original writing or exact edited versions the user explicitly accepts; never treat assistant drafts or silence as organic voice evidence or approval. Keep raw writing at source. Use `references/recipient-voice-model.md` for private calibration and the existing Skill Intelligence outcome loop for tested, scoped updates.
+
 ---
 
 ## Beautiful Prose Contract

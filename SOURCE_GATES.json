@@ -164,7 +164,7 @@
     }
   ],
   "schema_version": 1,
-  "source_digest": "479035fecfdc89329baf724b5484824d0c3f6440269b9dff717df98f5e5b293a",
+  "source_digest": "9695124d6147e75cf37bf920fd5fa8ecd3a180ce0c82d6cb638a8d9f8089c58c",
   "sources": [
     {
       "disposition": "generic_authored_source",
@@ -1873,7 +1873,7 @@
       "license": "MIT_authorized_authored_core",
       "package": "ethical-supersuader",
       "source_id": "eb023645918723bb654db65911bc1a346c43512e1cd0f54c90be64d606b5d35e",
-      "source_sha256": "58b0a184f1d141ba6d7eda1f2599522ba31f1f1713dd3d51d8f5c275e53a81b2",
+      "source_sha256": "c5f4b9d5765bca6c435ed9ef74d1cb58e8166c9bfde6243dd0182fc1ec898d65",
       "target": "plugins/institutional-skills/skills/ethical-supersuader/SKILL.md",
       "transformation": "recipient_bindings"
     },
@@ -1910,7 +1910,7 @@
       "package": "ethical-supersuader",
       "replacement": "recipient_resource_contract",
       "source_id": "129c94574f1658515f0004dfdf2823f21e071d956d8624cd827c416632497b5c",
-      "source_sha256": "b0c98a3686f9112b1922701f8c890b5251ff7f55472cd0f43f79e596507ec25d",
+      "source_sha256": "03dfdd758f013bd1c18925a331e69d2a7b4c0956d705b9ca186a667a7030a5d4",
       "target": "plugins/institutional-skills/skills/ethical-supersuader/references/recipient-voice-model.md"
     },
     {
@@ -2029,7 +2029,7 @@
       "license": "not_redistributed",
       "package": "ethical-supersuader",
       "source_id": "068b1591523a04350dac51977c45f149364d365ca3a66954cd1097e4e87bf6a0",
-      "source_sha256": "e86fa8c98aaa5860a90486e4e1cef224bcd37180cd0a1dd28f833b25ff720d1c"
+      "source_sha256": "388ab76d5b6270fed6c60aff9d449da81f780cb921774633ab7498fc69e74489"
     },
     {
       "disposition": "private_source_or_development_data_not_redistributed",

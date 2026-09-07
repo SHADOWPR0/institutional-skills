@@ -20,7 +20,7 @@
     },
     {
       "path": "SOURCE_GATES.json",
-      "sha256": "86e819cb7fddae69a91f10c94a360ab54dd848b1c88c4924d0c665f080740460"
+      "sha256": "3c19b4f9c137249819e2d392fafc3417315e1f2f7cc6af36206cc308f6cf9fa7"
     },
     {
       "path": "UPDATE.md",
@@ -44,7 +44,7 @@
     },
     {
       "path": "plugins/institutional-skills/.codex-plugin/plugin.json",
-      "sha256": "8e7b74d7e7b105708974ed91da9817ab9cb7e0f4d23f4497fced3fbcd387f5ca"
+      "sha256": "3bcb2d10ab1536548032d3c7e9fbb28eef350d82d3df83d8180ea780a2faf511"
     },
     {
       "path": "plugins/institutional-skills/LICENSE",
@@ -300,7 +300,7 @@
     },
     {
       "path": "plugins/institutional-skills/skills/ethical-supersuader/SKILL.md",
-      "sha256": "bfa65b7d338fff56e34c0bf2a4f2f6cc9b7565b5275aaca8a0aa13cfedac55d7"
+      "sha256": "31a3ee17fe357868bb15df9159fc42e41eb7f17e9a7bc3bde3dd9cf83b083fb1"
     },
     {
       "path": "plugins/institutional-skills/skills/ethical-supersuader/references/argument-and-evidence-control.md",
@@ -965,10 +965,10 @@
     "atropos-command",
     "security-bluebook-builder"
   ],
-  "payload_sha256": "09155ed2f5e1761aa55edd5a28221ac67abce69ba886cacd3c3f473a56209a12",
+  "payload_sha256": "fb324dc5ff7ec516233419ee325854487d2e862a8a64571fb9ad1b60146f66e4",
   "private_bindings_included": false,
   "public": true,
   "schema_version": 1,
-  "source_digest": "479035fecfdc89329baf724b5484824d0c3f6440269b9dff717df98f5e5b293a",
-  "version": "1.0.0+core.479035fecfdc"
+  "source_digest": "9695124d6147e75cf37bf920fd5fa8ecd3a180ce0c82d6cb638a8d9f8089c58c",
+  "version": "1.0.0+core.9695124d6147"
 }
