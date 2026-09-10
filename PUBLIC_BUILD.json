@@ -1,5 +1,5 @@
 {
-  "capabilities": 174,
+  "capabilities": 177,
   "execution_roles": 14,
   "files": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "path": "SOURCE_GATES.json",
-      "sha256": "3c19b4f9c137249819e2d392fafc3417315e1f2f7cc6af36206cc308f6cf9fa7"
+      "sha256": "7da50e3a6591e94b0fd6e30f99777c904a9e8e4fb90d2269d69b03de3ac2b994"
     },
     {
       "path": "UPDATE.md",
@@ -44,7 +44,7 @@
     },
     {
       "path": "plugins/institutional-skills/.codex-plugin/plugin.json",
-      "sha256": "3bcb2d10ab1536548032d3c7e9fbb28eef350d82d3df83d8180ea780a2faf511"
+      "sha256": "187bb3695351886b3582b0430f50b2107b61b73782979849c975f176dc4fcb99"
     },
     {
       "path": "plugins/institutional-skills/LICENSE",
@@ -360,7 +360,7 @@
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/SKILL.md",
-      "sha256": "428085c7a2a83ce9e1d0ba92e05d40610fc883d917b7ac4d3f12c51275e27eb5"
+      "sha256": "cb9e235b92cfbc606a143e8bcc93424111ef92e7c2c180fdfb3754e278dd5cda"
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/agents/openai.yaml",
@@ -372,7 +372,7 @@
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/capability-registry.json",
-      "sha256": "26efe7a42cf1476a333908f48f7a6a6f6be9a41bbc8334cdd2c1e9ae50624c26"
+      "sha256": "e07311e3cd119014ec7ba1be898b23a6c08600c0b2fee99ab8c8ae57083a09a9"
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/employee-operating-contract.md",
@@ -380,7 +380,7 @@
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/financial-house-org-chart.md",
-      "sha256": "7c15992109a6adddfe146b428afa43f4a9251f2d8592cecdabe689f2bc03459c"
+      "sha256": "170d16f6ffb901cc15778cf27372c1973221cdb58f8a50b807ca396ae9edffbb"
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/native-workforce.md",
@@ -388,11 +388,11 @@
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/references/routing-and-handoffs.md",
-      "sha256": "09cb329302c4f1c98f7334d85d58026461fcf2aaf4254a65a98d45105b6e919a"
+      "sha256": "d9c85a55bef65f605af39607b45a52a31b0af4dd34202c2621679588cfbe0ab3"
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/scripts/route_financial_house.py",
-      "sha256": "279e6452b5ce70cf55ab35c19952a83977b6893ca85da977de10d62e2c17ab89"
+      "sha256": "eca37b6c05f6f950cdbfb7634bbf3e3274a8b0dde3e8b45e68e5de777bee6ddc"
     },
     {
       "path": "plugins/institutional-skills/skills/financial-house-operating-system/scripts/workforce_runtime.py",
@@ -965,10 +965,10 @@
     "atropos-command",
     "security-bluebook-builder"
   ],
-  "payload_sha256": "fb324dc5ff7ec516233419ee325854487d2e862a8a64571fb9ad1b60146f66e4",
+  "payload_sha256": "1bf9d321ed549bed8d93c88ebd61a38de7dc6d3bf99a836b9fb3b45154047278",
   "private_bindings_included": false,
   "public": true,
   "schema_version": 1,
-  "source_digest": "9695124d6147e75cf37bf920fd5fa8ecd3a180ce0c82d6cb638a8d9f8089c58c",
-  "version": "1.0.0+core.9695124d6147"
+  "source_digest": "6a995f846fd2d290f829840bba3832bd68aafdc2d1380fa1421f6f9601f7feab",
+  "version": "1.0.0+core.6a995f846fd2"
 }

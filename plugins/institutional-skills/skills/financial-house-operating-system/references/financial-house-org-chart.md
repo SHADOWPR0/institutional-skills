@@ -41,6 +41,12 @@ their active replacements own decisions.
 | `ai_validation` | AI/ML methods, leakage, calibration, evaluation |
 | `ops_security` | records, controls, security, operational evidence |
 
+Routine office work is part of these employees, not a new package: Growth owns
+lead intake and follow-up coordination, Operations captures meeting actions,
+Deal Diligence stages transaction packages, and Product / Design produces event
+design. See [the workflow contracts](routing-and-handoffs.md#routine-office-work).
+The Chief of Staff coordinates only when the request spans decision domains.
+
 Each execution profile retains the prior institutional roster's skill and tool
 coverage in `skills`, `tools`, and `source_contracts`. `default_skills` defines
 the smaller starting stack used by the router. Fiduciary, counsel, tax, and

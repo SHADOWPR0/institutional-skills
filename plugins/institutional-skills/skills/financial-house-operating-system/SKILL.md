@@ -20,6 +20,8 @@ product, AI, operations, security, and records.
 
 - Ordinary task requests select the relevant owner automatically; named agents
   or explicit skill invocation are not required.
+- Routine follow-up, meeting capture, lead intake, deal staging and event design
+  use existing employees via `references/routing-and-handoffs.md#routine-office-work` (not bundled; recipient resource required).
 - "run the firm"
 - "staff agents like a financial house"
 - "investment bank plus buy side"

@@ -5305,6 +5305,84 @@
       ]
     },
     {
+      "category": "ops",
+      "deliverable": "Source-backed decisions, actions, owners, due dates and unresolved questions in the owning project; commitments are not inferred from suggestions.",
+      "execution_role": "ops_security",
+      "id": "ops.meeting-capture",
+      "keywords": [
+        "meeting follow up capture",
+        "meeting notes",
+        "capture meeting actions",
+        "post meeting capture"
+      ],
+      "kind": "support_workflow",
+      "owner": "agent-ops-control-plane",
+      "references": [
+        "financial-house-operating-system/references/routing-and-handoffs.md#routine-office-work"
+      ],
+      "skills": [
+        "agent-ops-control-plane"
+      ],
+      "title": "Meeting Follow-up Capture",
+      "tools": [
+        "approved meeting notes or transcript",
+        "existing task records"
+      ]
+    },
+    {
+      "category": "banking",
+      "deliverable": "Versioned package index, missing-item list, reconciled factual discrepancies and recipient-specific disclosure boundary; no submission or source overwrite.",
+      "execution_role": "deal_diligence",
+      "id": "support.deal-package-staging",
+      "keywords": [
+        "deal package staging",
+        "stage a deal package",
+        "stage the deal package",
+        "lender package staging"
+      ],
+      "kind": "support_workflow",
+      "owner": "universal-banker",
+      "references": [
+        "financial-house-operating-system/references/routing-and-handoffs.md#routine-office-work",
+        "universal-banker/references/underwriting-core.md"
+      ],
+      "skills": [
+        "universal-banker"
+      ],
+      "title": "Deal Package Staging",
+      "tools": [
+        "approved source package",
+        "local file inventory and checksums"
+      ]
+    },
+    {
+      "category": "product_design",
+      "deliverable": "Coherent event design package with source assets, stable versions, required format exports and visual QA; preserve accepted masters and distinguish concepts from venue facts.",
+      "execution_role": "product_design",
+      "id": "design.event-package",
+      "keywords": [
+        "event design package",
+        "event design",
+        "venue design",
+        "event invitation"
+      ],
+      "kind": "support_workflow",
+      "owner": "visual-design-operating-system",
+      "references": [
+        "financial-house-operating-system/references/routing-and-handoffs.md#routine-office-work",
+        "visual-design-operating-system/references/cross-medium-design-brief.md",
+        "visual-design-operating-system/references/quality-gates.md"
+      ],
+      "skills": [
+        "visual-design-operating-system"
+      ],
+      "title": "Event Design Package",
+      "tools": [
+        "approved venue photos and event brief",
+        "native artifact and visual QA tools as needed"
+      ]
+    },
+    {
       "category": "growth",
       "deliverable": "Qualified lead or relationship update packet with provenance and owner handoff; draft and delivery states remain distinct.",
       "details": {
@@ -5317,6 +5395,7 @@
         "leadgen",
         "lead gen",
         "leads",
+        "lead intake",
         "follow up",
         "contact enrichment"
       ],
@@ -5325,7 +5404,8 @@
       "references": [
         "growth-operating-system/SKILL.md",
         "growth-operating-system/references/plugin-support-map.md",
-        "ethical-supersuader/references/high-hit-rate-marketing-prose.md"
+        "ethical-supersuader/references/high-hit-rate-marketing-prose.md",
+        "financial-house-operating-system/references/routing-and-handoffs.md#routine-office-work"
       ],
       "skills": [
         "growth-operating-system",

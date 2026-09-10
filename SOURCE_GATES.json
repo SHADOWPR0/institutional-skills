@@ -13,6 +13,11 @@
   ],
   "recipient_resources": [
     {
+      "from": "plugins/institutional-skills/skills/financial-house-operating-system/SKILL.md",
+      "resource_id": "9ac3b6f628af01e1150ae54fffd79e82233938a5ec54ffa86506c0ac857a6482",
+      "state": "recipient_supplied"
+    },
+    {
       "from": "plugins/institutional-skills/skills/financial-house-operating-system/references/financial-house-org-chart.md",
       "resource_id": "bccb1e1f2fa9a2c9e5ba66f3bd65b6622be27dcc8ff18688d4a844d93aa5ee23",
       "state": "recipient_supplied"
@@ -164,14 +169,14 @@
     }
   ],
   "schema_version": 1,
-  "source_digest": "9695124d6147e75cf37bf920fd5fa8ecd3a180ce0c82d6cb638a8d9f8089c58c",
+  "source_digest": "6a995f846fd2d290f829840bba3832bd68aafdc2d1380fa1421f6f9601f7feab",
   "sources": [
     {
       "disposition": "generic_authored_source",
       "license": "MIT_authorized_authored_core",
       "package": "financial-house-operating-system",
       "source_id": "4dc8bd82e2683e9f1f6d72ed5e098d52adeb68ff1ac6f78b0c5f010a24572ba0",
-      "source_sha256": "b8c67b1426e8abdbbacce42f40655ecbbc29b41153405098652a9736c1640779",
+      "source_sha256": "d8ebeb3b1d7460287fc9000fc548db46e7925f52a4e7fccb4690397bac44cd63",
       "target": "plugins/institutional-skills/skills/financial-house-operating-system/SKILL.md",
       "transformation": "recipient_bindings"
     },
@@ -198,7 +203,7 @@
       "license": "MIT_authorized_authored_core",
       "package": "financial-house-operating-system",
       "source_id": "06f499aa8a2b745ddfaa5d481525769be341ffa0a1f90df3fe8cc8dd656feb73",
-      "source_sha256": "0b149cc29cbe7ef139654fbf8b0ef364510b155c55155b760c44b5c10546e2c5",
+      "source_sha256": "e44d2770c172d75048cebfea5f95cca3dc31e29c33b215a32b9d19e94232f388",
       "target": "plugins/institutional-skills/skills/financial-house-operating-system/references/capability-registry.json",
       "transformation": "recipient_bindings"
     },
@@ -216,7 +221,7 @@
       "license": "MIT_authorized_authored_core",
       "package": "financial-house-operating-system",
       "source_id": "e4c735d834168751544f9ca074d86550c09a29ec75e2b2ad535fd40a9f12bc25",
-      "source_sha256": "30e55c1907f34a2808a88ab6f59a6c1a332d4d4a0fcb23b0c62be7b087ff0587",
+      "source_sha256": "c91a8126b6b1f8510fa3ef1f452ada8ed75c1fffa71ce1afc1ccd938f7606d75",
       "target": "plugins/institutional-skills/skills/financial-house-operating-system/references/financial-house-org-chart.md",
       "transformation": "recipient_bindings"
     },
@@ -234,7 +239,7 @@
       "license": "MIT_authorized_authored_core",
       "package": "financial-house-operating-system",
       "source_id": "6725ffbda12121e2d0f74bd2c32e897185e4887fbb7365723aaa5c3d4ce926c6",
-      "source_sha256": "a730ce8110df52d9845b9a5452e498bf3f5da9cabe115d2665ebbde88a903d50",
+      "source_sha256": "08a7837e80d93ccc08388dafae3af65bf71b1db861bce98874b98175a8f9be58",
       "target": "plugins/institutional-skills/skills/financial-house-operating-system/references/routing-and-handoffs.md",
       "transformation": "recipient_bindings"
     },
@@ -243,7 +248,7 @@
       "license": "MIT_authorized_authored_core",
       "package": "financial-house-operating-system",
       "source_id": "3a49d1bbcf7f52fb008851568e2f1ee7c00a4e3b79f7ca05c72485a44c113a29",
-      "source_sha256": "279e6452b5ce70cf55ab35c19952a83977b6893ca85da977de10d62e2c17ab89",
+      "source_sha256": "eca37b6c05f6f950cdbfb7634bbf3e3274a8b0dde3e8b45e68e5de777bee6ddc",
       "target": "plugins/institutional-skills/skills/financial-house-operating-system/scripts/route_financial_house.py",
       "transformation": "byte_preserved"
     },
@@ -261,7 +266,7 @@
       "license": "not_redistributed",
       "package": "financial-house-operating-system",
       "source_id": "b8ad44039f136ac1bb42381a070014a48714efc428329fab312883c169f8a256",
-      "source_sha256": "a83c7e92be6a141649369f0b7fc794fd3a3f6d7ad340741a598a6a529cf11ee3"
+      "source_sha256": "b08c19b3ae8f2f124e5bcca78bae19765ec613e5524f3acd9ab28388795c8a4a"
     },
     {
       "disposition": "private_source_or_development_data_not_redistributed",

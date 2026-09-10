@@ -238,6 +238,8 @@ def classify(text: str, registry: dict[str, Any] | None = None) -> list[str]:
     hits = [category for category, keywords in CATEGORY_KEYWORDS.items() if matches(text, keywords)]
     registry = registry or load_registry()
     for capability in registry["capabilities"]:
+        if capability["kind"] == "support_workflow" and matches(text, capability["keywords"]):
+            hits.append(capability["category"])
         if capability["kind"] not in ("desk_family", "investment_role", "banker_specialist"):
             continue
         # Full named desks and specialist contracts remain addressable without
@@ -248,6 +250,9 @@ def classify(text: str, registry: dict[str, Any] | None = None) -> list[str]:
         hits.insert(0, "investment")
     if matches(text, CRM_KEYWORDS) and "growth" not in hits:
         hits.append("growth")
+    meeting = next(cap for cap in registry["capabilities"] if cap["id"] == "ops.meeting-capture")
+    if matches(text, meeting["keywords"]) and not matches(text, tuple(k for k in CRM_KEYWORDS if k != "follow up") + CATEGORY_KEYWORDS["growth"]):
+        hits = [category for category in hits if category != "growth"]
     # A valuation inside a transaction is banker work; editing a founder bio
     # does not assign an investment committee or an AI team.
     if "banking" in hits and not matches(text, ("investment", "portfolio", "trading", "stocks", "equities")):
@@ -295,7 +300,8 @@ def build_route(context: dict[str, Any]) -> dict[str, Any]:
     categories = classify(blob, registry)
     role_ids: list[str] = []
     crm = "growth" in categories and matches(blob, CRM_KEYWORDS)
-    banker_evidence_only = crm and "banking" in categories and not matches(blob, ("underwrite", "underwriting", "financing", "finance the deal", "structure", "m&a", "lbo"))
+    coordination_only = matches(blob, ("financing follow up",)) and not matches(blob, UNDERWRITE_KEYWORDS + ("structure", "finance the deal", "rank lenders", "compare lenders"))
+    banker_evidence_only = crm and "banking" in categories and (coordination_only or not matches(blob, ("underwrite", "underwriting", "financing", "finance the deal", "structure", "m&a", "lbo")))
     if "investment" in categories or "venture" in categories:
         role_ids.append("venture_platform" if "venture" in categories else "cio")
         if matches(blob, MACRO_KEYWORDS + TECHNICAL_KEYWORDS):
@@ -389,6 +395,8 @@ def build_route(context: dict[str, Any]) -> dict[str, Any]:
     for role in roles:
         caps = [capability for capability in packet_capabilities if capability["execution_role"] == role.role_id]
         role_skills = list(role.skills)
+        if role.role_id == "ops_security" and any(cap["id"] == "ops.meeting-capture" for cap in caps) and not matches(blob, ("security", "incident", "threat", "vulnerability")):
+            role_skills = ["agent-ops-control-plane"]
         if role.role_id == "market_structure":
             role_skills = ["investment-management"]
             if matches(blob, MACRO_KEYWORDS) or any("global-macro-theme-picker" in cap["skills"] for cap in caps if cap["kind"] != "execution_profile"):
